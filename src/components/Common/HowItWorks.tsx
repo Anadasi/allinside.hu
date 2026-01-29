@@ -18,8 +18,8 @@ const HowItWorks = () => {
     {
       id: 1,
       icon: "/images/icons/work1.svg",
-      title: "Create Account",
-      description: "Sign up and complete your profile in minutes.",
+      title: "Időpontkérés, alapos vizsgálat és személyre szabott konzultáció",
+      description: "Az időpont kérést követően részletes ortopédiai vizsgálatra és személyre szabott konzultációra kerül sor, ahol a páciens minden kérdésre választ kap. A kezelési terv minden esetben egyénre szabottan, a beteg életkorához, aktivitási szintjéhez és egyéni adottságaihoz igazodik, a legmegfelelőbb megoldás kiválasztásával.",
       vectorImage: "/images/vector1.png",
       vectorWidth: 42,
       vectorHeight: 88,
@@ -27,8 +27,8 @@ const HowItWorks = () => {
     {
       id: 2,
       icon: "/images/icons/work2.svg",
-      title: "Choose a Service",
-      description: "Select from general care & mental health.",
+      title: "A műtét menete",
+      description: "A műtétet artroszkópos módszerrel végezzük, amely minimálisan invazív, azaz kisebb bemetszéssel jár. A sebész a térdízületbe kis kamerát (artroszkópot) és speciális műszereket vezet be, hogy lássa a sérülést, és a beavatkozást pontosan végezze el.",
       vectorImage: "/images/vector2.png",
       vectorWidth: 30,
       vectorHeight: 91,
@@ -36,8 +36,8 @@ const HowItWorks = () => {
     {
       id: 3,
       icon: "/images/icons/work3.svg",
-      title: "Start Consultation",
-      description: "Video chat with a licensed doctor anytime.",
+      title: "Rehabilitáció",
+      description: "Az All-inside műtét után a rehabilitáció hasonlóan zajlik, mint más keresztszalag műtét esetén, célja a térd stabilizálása, az izomerő visszaállítása, valamint a mozgástartomány fokozatos visszanyerése. Ez az eljárás elsősorban azoknak ajánlott, akik elülső keresztszalag szakadás miatt szenvednek és akiknek a sérülései olyan mértékűek, hogy az artroszkópos műtét megfelelő megoldást kínál.",
     },
   ];
 
