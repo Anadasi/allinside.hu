@@ -133,10 +133,10 @@ function HeroBanner() {
                     </div>
                     <div className="content">
                       <div className="d-flex align-items-center">
-                        <h3 className="counter">3</h3>
-                        <h3 className="sub">M+</h3>
+                        <h3 className="counter">65</h3>
+                        <h3 className="sub">+</h3>
                       </div>
-                      <span>Members Treated</span>
+                      <span>páciens értékelés</span>
                     </div>
                   </div>
                   <div className="wrap">
