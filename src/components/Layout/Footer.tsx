@@ -49,7 +49,7 @@ interface FooterData {
 // Dynamic data object
 const footerData: FooterData = {
   logo: {
-    src: "/images/logo.svg",
+    src: "/images/majzik-logo.png",
     alt: "logo",
     width: 134,
     height: 35,

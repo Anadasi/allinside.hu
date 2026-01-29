@@ -57,7 +57,7 @@ function Navbar() {
         <div className="container-fluid">
           <Link href="/" className="navbar-brand">
             <Image
-              src="/images/logo.svg"
+              src="/images/majzik-logo.png"
               alt="Doutor"
               width={134}
               height={35}
@@ -191,7 +191,7 @@ function Navbar() {
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
             <Image
-              src="/images/logo.svg"
+              src="/images/majzik-logo.png"
               alt="Doutor"
               width={134}
               height={35}
