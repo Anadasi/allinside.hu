@@ -2,7 +2,7 @@ export const menus = [
   {
     id: "home",
     title: "Főoldal",
-    path: "/",
+    href:  "/",
   },
   {
     id: "services",
@@ -64,7 +64,7 @@ export const menus = [
   {
     id: "tovabbi",
     title: "További kezelések",
-    path: "https://www.drmajzikerno.hu/",
+    href: "https://www.drmajzikerno.hu/",
   },
   {
     id: "contact",
