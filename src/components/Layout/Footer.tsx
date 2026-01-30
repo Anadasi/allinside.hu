@@ -139,7 +139,7 @@ const footerData: FooterData = {
     owner: "EnvyTheme",
     ownerUrl: "https://envytheme.com/",
   },
-  complianceBadges: ["HIPAA Compliant", "GDPR Ready", "SSL Secured"],
+  complianceBadges: ["Adatvédelmi tájékoztató"],
 };
 
 function Footer() {
