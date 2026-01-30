@@ -56,7 +56,7 @@ const doctorData: DoctorProfileData = {
   title: "Sportsebész specialista",
   specialty: "Sportsebész specialista",
   reviews: {
-    rating: 4,3,
+    rating: 4.3,
     count: 2350,
     totalCount: "5,200+",
   },
