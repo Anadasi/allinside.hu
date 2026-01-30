@@ -11,7 +11,7 @@ export default function Page() {
 
       <PageBanner
         pageTitle="Kapcsolat"
-        shortText="Amennyiben kérdése van az all-inside keresztszalag-rekonstrukcióval vagy a műtéti lehetőségekkel kapcsolatban, forduljon hozzám bizalommal."
+        shortText="Amennyiben kérdése van az all-inside keresztszalag-rekonstrukcióval vagy a műtéti lehetőségekkel kapcsolatban, forduljon hozzánk bizalommal."
         homePageUrl="/"
         homePageText="Home"
         activePageText="Contact Us"

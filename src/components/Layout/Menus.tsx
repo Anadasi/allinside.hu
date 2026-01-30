@@ -28,11 +28,10 @@ export const menus = [
       { title: "Book An Appointment", href: "/book-an-appointment/" },
       { title: "Feedbacks", href: "/feedbacks/" },
       { title: "FAQ's", href: "/faq/" },
-      { title: "Login", href: "/login/" },
       { title: "Register", href: "/register/" },
       { title: "Privacy Policy", href: "/privacy-policy/" },
       { title: "Terms & Conditions", href: "/terms-conditions/" },
-      { title: "Contact Us", href: "/contact-us/" },
+      { title: "Kapcsolat", href: "/contact-us/" },
     ],
   },
   {
