@@ -62,7 +62,7 @@ const doctorData: DoctorProfileData = {
   },
   experience: "30 év",
   licenseId: "#NY-678234",
-  note: "Currently practicing via Doutor Virtual Clinic (Telemedicine Only)",
+  note: "40.000+ térd, váll, csípő és boka műtét",
   socialLinks: [
     {
       platform: "facebook",
@@ -80,7 +80,7 @@ const doctorData: DoctorProfileData = {
       icon: "/images/icons/instagram.svg",
     },
   ],
-  profileImage: "/images/banner/banner-me.jpg",
+  profileImage: "/images/banner/banner-me.png",
   about: {
     title: "Bemutatkozás",
     paragraphs: [
