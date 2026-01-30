@@ -108,6 +108,7 @@ const footerData: FooterData = {
       ],
     },
   ],
+  };
 
 function Footer() {
   return (
