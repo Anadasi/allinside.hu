@@ -75,72 +75,39 @@ const footerData: FooterData = {
   ],
   sections: [
     {
-      title: "Company",
+      title: "Elérhetőségek",
       links: [
-        { text: "About Us", url: "/about-us" },
-        { text: "Our Doctors", url: "/doctors" },
-        { text: "Services", url: "/services" },
-        { text: "Our Blog", url: "/blogs" },
-        { text: "Contact Us", url: "/contact-us" },
+        { text: "Bemutatkozás", url: "/about-us" },
+        { text: "Gyakori kérdések", url: "/doctors" },
+        { text: "Kapcsolat", url: "/services" },
       ],
     },
     {
-      title: "Services",
+      title: "Műtétek típusai",
       links: [
-        { text: "General Medical", url: "/services/details" },
-        { text: "Mental Health", url: "/services/details" },
-        { text: "Dermatology", url: "/services/details" },
-        { text: "Pediatrics", url: "/services/details" },
-        { text: "Chronic Care", url: "/services/details" },
+        { text: "Bokaműtétek", url: "https://www.drmajzikerno.hu/szolgaltatasok/bokamutetek/" },
+        { text: "Könyökműtétek", url: "https://www.drmajzikerno.hu/szolgaltatasok/konyokmutetek/" },
+        { text: "Térdműtétek", url: "https://www.drmajzikerno.hu/szolgaltatasok/terdmutetek/" },
+        { text: "Vállműtétek", url: "https://www.drmajzikerno.hu/szolgaltatasok/vallmutetek/" },
+        { text: "PRP kezelések", url: "https://www.drmajzikerno.hu/szolgaltatasok/prp-kezelesek/" },
       ],
     },
     {
-      title: "Support",
-      links: [
-        { text: "FAQs", url: "/faq" },
-        { text: "Contact Us", url: "/contact-us" },
-        { text: "Insurance Info", url: "/login" },
-        { text: "Technical Help", url: "/login" },
-        { text: "Privacy Policy", url: "/privacy-policy" },
-      ],
-    },
-    {
-      title: "Contact",
+      title: "Elérhetőségek",
       links: [
         {
-          text: "Email: support@doutor.com",
-          url: "mailto:support@doutor.com",
+          text: "Email: rendeles@drmajzikerno.hu",
+          url: "mailto:rendeles@drmajzikerno.hu",
           isExternal: true,
         },
         {
-          text: "Phone: +1 (800) 456-7890",
-          url: "tel:18004567890",
+          text: "Telefon: +36 30 940 5846",
+          url: "tel:+36309405846",
           isExternal: true,
         },
       ],
     },
   ],
-  appButtons: [
-    {
-      name: "Google Play",
-      url: "https://play.google.com/store/apps",
-      image: "/images/app/google-play.svg",
-      alt: "google-play",
-    },
-    {
-      name: "App Store",
-      url: "https://www.apple.com/app-store/",
-      image: "/images/app/app-store.svg",
-      alt: "app-store",
-    },
-  ],
-  copyright: {
-    text: "Doutor",
-    owner: "EnvyTheme",
-    ownerUrl: "https://envytheme.com/",
-  },
-  complianceBadges: ["Adatvédelmi tájékoztató"],
-};
 
 function Footer() {
   return (
@@ -233,10 +200,7 @@ function Footer() {
             <div className="row justify-content-center align-items-center g-4">
               <div className="col-lg-6 col-md-12">
                 <p>
-                  © <span>{footerData.copyright.text}</span> is Proudly Owned by{" "}
-                  <a href={footerData.copyright.ownerUrl} target="_blank">
-                    {footerData.copyright.owner}
-                  </a>
+                  © 2026 Dr. Majzik Ernő - Minden jog fenntartva
                 </p>
               </div>
               <div className="col-lg-6 col-md-12">
