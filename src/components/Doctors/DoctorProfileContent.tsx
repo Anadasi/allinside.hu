@@ -80,13 +80,13 @@ const doctorData: DoctorProfileData = {
       icon: "/images/icons/instagram.svg",
     },
   ],
-  profileImage: "/images/doctor-profile.jpg",
+  profileImage: "/images/banner/banner-me.jpg",
   about: {
-    title: "About Dr. Mark Davis",
+    title: "Bemutatkozás",
     paragraphs: [
-      "Dr. Mark Davis is a highly respected, board-certified physician specializing in internal medicine with over 25 years of experience in both clinical practice and telehealth. He is dedicated to delivering high-quality, personalized care with a strong focus on patient trust and comfort.",
-      "Throughout his career, Dr. Davis has helped thousands of patients manage chronic conditions such as hypertension, diabetes, and asthma, while also treating common issues like flu, infections, and allergies through virtual care. His calm demeanor and clear communication style make him a trusted name in remote healthcare.",
-      "Dr. Davis is passionate about making healthcare more accessible and believes that virtual medicine is key to the future of patient-centered care.",
+      "Sportsebészként célom, hogy segítsek a pácienseknek visszatérni a mozgás öröméhez – legyen szó hobbi- vagy élsportolóról. A modern sebészeti technikák és személyre szabott rehabilitáció révén hatékonyan kezelem a térd, váll, boka és más mozgásszervi sérüléseket, biztosítva a gyors és tartós felépülést. Több ezer műtéttel a hátam mögött széleskörű tapasztalattal rendelkezem és betegek ezreinek segítettem pályafutásom során.",
+      "Célom nem csupán a fájdalom megszüntetése, hanem a mielőbbi visszatérés az aktív, fájdalommentes élethez.",
+      "Szakterületeim a boka-, térd- és vállsérülések gyógyítása.",
     ],
   },
   services: {

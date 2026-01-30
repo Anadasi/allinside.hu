@@ -55,7 +55,7 @@ const footerData: FooterData = {
     height: 35,
   },
   description:
-    "Doutor is a modern telemedicine platform committed to making high-quality healthcare accessible, affordable, and patient-centered.",
+    "Sérülés után gyors és hatékony segítségre van szüksége? Forduljon hozzám bizalommal! Foglaljon időpontot mielőbb és éljen újra fájdalommentesen!",
   socialLinks: [
     {
       platform: "facebook",
