@@ -1,13 +1,7 @@
 export const menus = [
   {
     id: "home",
-    title: "Home",
-    isDropdown: true,
-    dropdownItems: [
-      { title: "Home Demo - 1", href: "/" },
-      { title: "Home Demo - 2", href: "/home-2/" },
-      { title: "Home Demo - 3", href: "/home-3/" },
-    ],
+    title: "Főoldal",
   },
   {
     id: "services",
