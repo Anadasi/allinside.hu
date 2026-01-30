@@ -52,15 +52,15 @@ interface DoctorProfileData {
 
 // Dynamic data object
 const doctorData: DoctorProfileData = {
-  name: "Dr. Mark Davis",
-  title: "MD, Psychiatry",
-  specialty: "Mental Health",
+  name: "Dr. Majzik Ernő",
+  title: "Sportsebész specialista",
+  specialty: "Sportsebész specialista",
   reviews: {
-    rating: 4.9,
+    rating: 4,3,
     count: 2350,
     totalCount: "5,200+",
   },
-  experience: "25 Years",
+  experience: "30 év",
   licenseId: "#NY-678234",
   note: "Currently practicing via Doutor Virtual Clinic (Telemedicine Only)",
   socialLinks: [
@@ -78,11 +78,6 @@ const doctorData: DoctorProfileData = {
       platform: "instagram",
       url: "https://www.instagram.com/dr.majzik.erno/",
       icon: "/images/icons/instagram.svg",
-    },
-    {
-      platform: "x",
-      url: "https://x.com/",
-      icon: "/images/icons/x.svg",
     },
   ],
   profileImage: "/images/doctor-profile.jpg",
@@ -230,7 +225,7 @@ const DoctorProfileContent = () => {
                   height={917}
                 />
                 <div className="info-social">
-                  <h5>Follow Me:</h5>
+                  <h5>Közösségi média</h5>
                   <ul className="list">
                     {doctorData.socialLinks.map((link, index) => (
                       <li key={index}>
@@ -295,7 +290,7 @@ const DoctorProfileContent = () => {
                             />
                           </svg>
                         </span>
-                        Book Now
+                        Időpontfoglalás
                         <span className="right">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -329,7 +324,7 @@ const DoctorProfileContent = () => {
                           activeTab === 0 ? "active" : ""
                         }`}
                       >
-                        Availability
+                        Szakmai pályafutás
                       </button>
                     </li>
                     <li className="nav-item">
@@ -372,7 +367,7 @@ const DoctorProfileContent = () => {
                         <CalendarContent />
                         <div className="availability-reviews">
                           <h3>
-                            Reviews{" "}
+                            Vélemények{" "}
                             <span>
                               ⭐ <strong>{doctorData.reviews.rating}</strong> (
                               {doctorData.reviews.totalCount} patient reviews)
