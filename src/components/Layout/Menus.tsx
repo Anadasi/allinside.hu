@@ -2,6 +2,7 @@ export const menus = [
   {
     id: "home",
     title: "Főoldal",
+    path: "/",
   },
   {
     id: "services",
@@ -35,7 +36,7 @@ export const menus = [
     dropdownItems: [
       { title: "Doctors", href: "/doctors/" },
       { title: "Doctors 02", href: "/doctors/two/" },
-      { title: "Doctor Profile", href: "/doctors/profile/" },
+      { title: "Rólam", href: "/doctors/profile/" },
     ],
   },
   {
@@ -61,8 +62,13 @@ export const menus = [
     ],
   },
   {
+    id: "tovabbi",
+    title: "További kezelések",
+    path: "https://www.drmajzikerno.hu/",
+  },
+  {
     id: "contact",
-    title: "Contact",
+    title: "Kapcsolat",
     href: "/contact-us/",
   },
 ];
