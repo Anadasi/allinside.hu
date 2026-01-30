@@ -10,8 +10,8 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="We're Here to Help"
-        shortText="Have questions about our services, need support, or want to speak with our team? Reach out—we're ready to assist you 24/7."
+        pageTitle="Kapcsolat"
+        shortText="Amennyiben kérdése van az all-inside keresztszalag-rekonstrukcióval vagy a műtéti lehetőségekkel kapcsolatban, forduljon hozzám bizalommal."
         homePageUrl="/"
         homePageText="Home"
         activePageText="Contact Us"
