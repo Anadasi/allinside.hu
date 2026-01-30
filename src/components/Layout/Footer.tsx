@@ -218,5 +218,8 @@ function Footer() {
     </>
   );
 }
+appButtons: [],
+  complianceBadges: [],
+  copyright: "© 2026 Dr. Majzik Ernő - Minden jog fenntartva",
 
 export default Footer;
