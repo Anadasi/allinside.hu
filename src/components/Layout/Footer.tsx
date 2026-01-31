@@ -97,7 +97,7 @@ const footerData: FooterData = {
         {
           text: "Újbuda Medical Center",
           text: "1116 Budapest, Fehérvári út 126-128.",
-          text: "Szerda és csütörtök (15:00-20:00), péntek (11:00-17:00)",
+          text: "Szerda és Csütörtök 15:00-20:00, Péntek 11:00-17:00",
         },
       ],
     },
