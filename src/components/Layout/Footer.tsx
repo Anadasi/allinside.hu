@@ -37,13 +37,7 @@ interface FooterData {
   description: string;
   socialLinks: SocialLink[];
   sections: FooterSection[];
-  appButtons: AppButton[];
-  copyright: {
-    text: string;
-    owner: string;
-    ownerUrl: string;
   };
-  complianceBadges: string[];
 }
 
 // Dynamic data object
@@ -176,21 +170,6 @@ function Footer() {
               </div>
               <div className="col-lg-3 col-md-12">
                 <div className="single-footer-widget end-style">
-                  <h3>Download Our App</h3>
-                  <ul className="apps-btn">
-                    {footerData.appButtons.map((button, index) => (
-                      <li key={index}>
-                        <Link href={button.url} target="_blank">
-                          <Image
-                            src={button.image}
-                            alt={button.alt}
-                            width={196}
-                            height={56}
-                          />
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>
@@ -206,9 +185,6 @@ function Footer() {
               </div>
               <div className="col-lg-6 col-md-12">
                 <ul className="lists">
-                  {footerData.complianceBadges.map((badge, index) => (
-                    <li key={index}>{badge}</li>
-                  ))}
                 </ul>
               </div>
             </div>
@@ -217,9 +193,6 @@ function Footer() {
       </footer>
     </>
   );
-}
-appButtons: [],
-  complianceBadges: [],
-  copyright: "© 2026 Dr. Majzik Ernő - Minden jog fenntartva",
+},
 
 export default Footer;
