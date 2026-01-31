@@ -90,14 +90,14 @@ const footerData: FooterData = {
       title: "Rendelések",
       links: [
         {
-          text: "Siómedical Egészségügyi Központ",
-         text: "8600 Siófok, Semmelweis u. 1.",
-        text: "Hétfő",
+          text: "Siómedical Egészségügyi Központ, url: "https://www.siomedical.hu/",
+         text: "8600 Siófok, Semmelweis u. 1., url: "https://www.siomedical.hu/",
+        text: "Hétfő, url: "https://www.siomedical.hu/",
         },
         {
-          text: "Újbuda Medical Center",
-          text: "1116 Budapest, Fehérvári út 126-128.",
-          text: "Szerda és Csütörtök 15:00-20:00, Péntek 11:00-17:00",
+          text: "Újbuda Medical Center, url: "https://ujbudamedicalcenter.hu/",
+          text: "1116 Budapest, Fehérvári út 126-128., url: "https://ujbudamedicalcenter.hu/",
+          text: "Szerda és Csütörtök 15:00-20:00, Péntek 11:00-17:00",  url: "https://ujbudamedicalcenter.hu/",
         },
       ],
     },
