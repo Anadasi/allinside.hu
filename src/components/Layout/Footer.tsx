@@ -87,17 +87,17 @@ const footerData: FooterData = {
       ],
     },
     {
-      title: "Elérhetőségek",
+      title: "Rendelések",
       links: [
         {
-          text: "Email: rendeles@drmajzikerno.hu",
-          url: "mailto:rendeles@drmajzikerno.hu",
-          isExternal: true,
+          text: "Siómedical Egészségügyi Központ",
+         text: "8600 Siófok, Semmelweis u. 1.",
+        text: "Hétfő",
         },
         {
-          text: "Telefon: +36 30 940 5846",
-          url: "tel:+36309405846",
-          isExternal: true,
+          text: "Újbuda Medical Center",
+          text: "1116 Budapest, Fehérvári út 126-128.",
+          text: "Szerda és csütörtök (15:00-20:00), péntek (11:00-17:00)",
         },
       ],
     },
@@ -106,7 +106,6 @@ const footerData: FooterData = {
       links: [
         {
           text: "Email: rendeles@drmajzikerno.hu",
-          url: "mailto:rendeles@drmajzikerno.hu",
           isExternal: true,
         },
         {
