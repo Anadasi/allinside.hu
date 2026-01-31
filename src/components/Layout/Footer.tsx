@@ -103,20 +103,21 @@ const footerData: FooterData = {
         },
       ],
     },
-        {
+    {
       title: "Elérhetőségek",
       links: [
         {
           text: "Email: rendeles@drmajzikerno.hu",
+          url: "mailto:rendeles@drmajzikerno.hu",
           isExternal: true,
         },
         {
-          text: "Telefon: +36 30 940 5846",
+          text: "Telefon: +36 30 940 5846", 
           url: "tel:+36309405846",
           isExternal: true,
-        },
+        }
       ],
-    },
+    },   
   ],
   };
 
