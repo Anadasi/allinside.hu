@@ -38,6 +38,7 @@ interface FooterData {
   socialLinks: SocialLink[];
   sections: FooterSection[];
   };
+  };
 }
 
 // Dynamic data object
