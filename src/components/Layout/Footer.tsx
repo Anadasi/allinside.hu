@@ -37,8 +37,7 @@ interface FooterData {
   description: string;
   socialLinks: SocialLink[];
   sections: FooterSection[];
-  };
-}
+  }
 
 // Dynamic data object
 const footerData: FooterData = {
