@@ -102,8 +102,6 @@ const footerData: FooterData = {
           url: "https://www.siomedical.hu/" 
         },
       ],
-
-      ],
     },
         {
       title: "Elérhetőségek",
