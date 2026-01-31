@@ -68,11 +68,12 @@ const footerData: FooterData = {
   ],
   sections: [
     {
-      title: "Elérhetőségek",
+      title: "Linkek",
       links: [
-        { text: "Bemutatkozás", url: "/about-us" },
-        { text: "Gyakori kérdések", url: "/doctors" },
-        { text: "Kapcsolat", url: "/services" },
+        { text: "Bemutatkozás", url: "/doctors/profile/" },
+        { text: "Gyakori kérdések", url: "/faq" },
+        { text: "Adatvédelmi tájékoztató", url: "#" },
+        { text: "Kapcsolat", url: "/contact-us" },
       ],
     },
     {
@@ -86,6 +87,21 @@ const footerData: FooterData = {
       ],
     },
     {
+      title: "Elérhetőségek",
+      links: [
+        {
+          text: "Email: rendeles@drmajzikerno.hu",
+          url: "mailto:rendeles@drmajzikerno.hu",
+          isExternal: true,
+        },
+        {
+          text: "Telefon: +36 30 940 5846",
+          url: "tel:+36309405846",
+          isExternal: true,
+        },
+      ],
+    },
+        {
       title: "Elérhetőségek",
       links: [
         {
