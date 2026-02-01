@@ -67,8 +67,8 @@ function HeroBanner() {
                 </div>
 
                 <h1 className="title-animation">
-                  All-inside keresztszalag műtét:<span><br />a modern sportsebészet
-</span> egyik legfejlettebb megoldása
+                  All-inside keresztszalag műtét:<span>a modern sportsebészet
+</span> legfejlettebb megoldása
                 </h1>
 
                 <p>
@@ -76,7 +76,7 @@ function HeroBanner() {
                 </p>
 
                 <div className="banner-btn">
-                  <Link href="/register" className="default-btn">
+                  <Link href="doctors/profile/" className="default-btn">
                     <span className="left">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
