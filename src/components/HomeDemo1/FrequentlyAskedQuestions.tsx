@@ -19,29 +19,29 @@ const FrequentlyAskedQuestions = () => {
         "Az eljárás ideális: fiatal, aktív életet élő pácienseknek, hobbi- és élsportolóknak, ha fontos a gyors visszatérés a sportba vagy fizikai munkába, illetve olyan esetekben is, amikor revíziós (újrakezdett) műtétre van szükség.",
     },
     {
-      question: "What types of conditions can Doutor treat?",
+      question: "Milyen ínból készül az új keresztszalag (graft)?",
       answer:
         "Leggyakrabban a saját semitendinosus (combhajlító) inát használjuk, amelyet a műtét során több rétegben összehajtva („quadruplálva”) rögzítünk. Ez elegendő szilárdságot és hosszúságot biztosít, miközben a többi izom működését nem befolyásolja számottevően.",
     },
     {
-      question: "Will I receive a prescription after my consultation?",
+      question: "Hogyan történik a műtét, és meddig tart?",
       answer:
         "A műtét artroszkópos (kulcslyuk) technikával történik. Kisebb metszésekből, kamerával és speciális műszerekkel dolgozunk. A műtét átlagosan 60–90 percig tart, és legtöbbször egynapos sebészet keretében, azaz kórházi bennfekvés nélkül végezhető.",
     },
     {
-      question: "Is my health information safe and private?",
+      question: "Fájdalmas a beavatkozás?",
       answer:
-        "Yes. Doutor is fully compliant with HIPAA and other privacy regulations. Your data is encrypted and securely stored to ensure your personal health information stays confidential.",
+        "A műtét altatásban vagy regionális érzéstelenítésben zajlik, így semmit nem fog érezni közben. Utána enyhe-mérsékelt fájdalom előfordulhat, de ezt hatékonyan lehet kezelni fájdalomcsillapítókkal. Az All-inside technika előnye, hogy kevesebb fájdalommal jár, mint a klasszikus eljárások.",
     },
     {
-      question: "Can I choose which doctor I see?",
+      question: "Mennyi ideig tart a felépülés?",
       answer:
-        "Absolutely. You can browse available providers by specialty, experience, ratings, and availability—then choose the one who best fits your needs.",
+        "Ez egyénfüggő, de általánosan elmondható: manuális munkához vagy irodai munkához: 2–4 hét, sporthoz való visszatérés esetén: 5–9 hónap, sportágtól és edzettségi szinttől függően. A rehabilitáció során gyógytornász segíti a fokozatos visszatérést a mozgáshoz.",
     },
     {
-      question: "What devices can I use for my virtual visit?",
+      question: "Milyen szövődményekkel kell számolni?",
       answer:
-        "You can join your virtual visit from a smartphone, tablet, or computer. All you need is a stable internet connection and a device with a camera and microphone.",
+        "Mint minden műtétnél, itt is előfordulhatnak ritka szövődmények: fertőzés, vérömleny, ízületi merevség vagy fájdalom. Az All-inside technika azonban kisebb invazivitása miatt csökkentheti ezek kockázatát.",
     },
   ];
 
