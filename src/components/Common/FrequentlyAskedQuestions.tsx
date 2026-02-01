@@ -16,45 +16,42 @@ const FrequentlyAskedQuestions = () => {
       id: 2,
       question: "Mikor javasolt az All-inside technika?",
       answer: [
-        "Yes, you can. Doutor works with or without insurance. If you don’t have coverage, you can still book a visit and pay a flat, transparent fee directly.",
+        "Az eljárás ideális fiatal, aktív életet élő pácienseknek, hobbi- és élsportolóknak, ha fontos a gyors visszatérés a sportba vagy fizikai munkába, illetve olyan esetekben is, amikor revíziós (újrakezdett) műtétre van szükség.",
       ],
     },
     {
       id: 3,
-      question: "What types of conditions can Doutor treat?",
+      question: "Milyen ínból készül az új keresztszalag (graft)?",
       answer: [
-        "Doutor doctors can help with common illnesses like colds, flu, infections, allergies, and skin issues, as well as ongoing conditions such as diabetes or hypertension.",
-        "For emergencies, we recommend calling your local emergency services instead of using Doutor.",
+        "Leggyakrabban a saját semitendinosus (combhajlító) inát használjuk, amelyet a műtét során több rétegben összehajtva („quadruplálva”) rögzítünk. Ez elegendő szilárdságot és hosszúságot biztosít, miközben a többi izom működését nem befolyásolja számottevően.",
       ],
     },
     {
       id: 4,
-      question: "Will I receive a prescription after my consultation?",
+      question: "Hogyan történik a műtét, és meddig tart?",
       answer: [
-        "If your doctor determines that medication is needed, they can send an electronic prescription directly to your preferred pharmacy after your virtual visit.",
+        "A műtét artroszkópos (kulcslyuk) technikával történik. Kisebb metszésekből, kamerával és speciális műszerekkel dolgozunk. A műtét átlagosan 60–90 percig tart, és legtöbbször egynapos sebészet keretében, azaz kórházi bennfekvés nélkül végezhető.",
       ],
     },
     {
       id: 5,
-      question: "Is my health information safe and private?",
+      question: "Fájdalmas a beavatkozás?",
       answer: [
-        "Yes. Doutor uses secure, HIPAA-compliant technology to protect your personal and medical information.",
-        "Your data is encrypted and never shared without your consent.",
+        "A műtét altatásban vagy regionális érzéstelenítésben zajlik, így semmit nem fog érezni közben. Utána enyhe-mérsékelt fájdalom előfordulhat, de ezt hatékonyan lehet kezelni fájdalomcsillapítókkal. Az All-inside technika előnye, hogy kevesebb fájdalommal jár, mint a klasszikus eljárások.",
       ],
     },
     {
       id: 6,
-      question: "Can I choose which doctor I see?",
+      question: "Mennyi ideig tart a felépülés?",
       answer: [
-        "Absolutely. You can browse available doctors by specialty, read their profiles, and select the provider you prefer for your appointment.",
+        "Ez egyénfüggő, de általánosan elmondható: manuális munkához vagy irodai munkához: 2–4 hét, sporthoz való visszatérés esetén: 5–9 hónap, sportágtól és edzettségi szinttől függően. A rehabilitáció során gyógytornász segíti a fokozatos visszatérést a mozgáshoz.",
       ],
     },
     {
       id: 7,
-      question: "What devices can I use for my virtual visit?",
+      question: "Milyen szövődményekkel kell számolni?",
       answer: [
-        "Doutor works on most devices including smartphones, tablets, laptops, and desktop computers.",
-        "You just need a stable internet connection, a camera, and a microphone.",
+        "Mint minden műtétnél, itt is előfordulhatnak ritka szövődmények: fertőzés, vérömleny, ízületi merevség vagy fájdalom. Az All-inside technika azonban kisebb invazivitása miatt csökkentheti ezek kockázatát.",
       ],
     },
   ];
@@ -79,8 +76,8 @@ const FrequentlyAskedQuestions = () => {
                 margin: "auto",
               }}
             >
-              <span className="sub wrap2">Frequently Asked Questions</span>
-              <h2>Everything You Need to Know About Doutor</h2>
+              <span className="sub wrap2">All-inside kisokos</span>
+              <h2>Gyakran felmerülő kérdések</h2>
             </div>
           </div>
 

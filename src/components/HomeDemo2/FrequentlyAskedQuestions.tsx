@@ -81,8 +81,8 @@ function FrequentlyAskedQuestions() {
                 margin: "auto",
               }}
             >
-              <span className="sub wrap2">Frequently Asked Questions</span>
-              <h2>Everything You Need to Know About Doutor</h2>
+              <span className="sub wrap2">All-inside kisokos</span>
+              <h2>Gyakran felmerülő kérdések</h2>
             </div>
           </div>
           <div className="row justify-content-center align-items-center g-4">
