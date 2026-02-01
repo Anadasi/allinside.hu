@@ -16,27 +16,17 @@ const FrequentlyAskedQuestions = () => {
     {
       question: "Mikor javasolt az All-inside technika?",
       answer:
-        "Az eljárás ideális:
-fiatal, aktív életet élő pácienseknek,
-
-
-hobbi- és élsportolóknak,
-
-
-ha fontos a gyors visszatérés a sportba vagy fizikai munkába,
-
-
-illetve olyan esetekben is, amikor revíziós (újrakezdett) műtétre van szükség.",
+        "Az eljárás ideális: fiatal, aktív életet élő pácienseknek, hobbi- és élsportolóknak, ha fontos a gyors visszatérés a sportba vagy fizikai munkába, illetve olyan esetekben is, amikor revíziós (újrakezdett) műtétre van szükség.",
     },
     {
       question: "What types of conditions can Doutor treat?",
       answer:
-        "Doutor can treat a wide range of non-emergency conditions including cold and flu symptoms, allergies, skin issues, mental health concerns, minor infections, and more.",
+        "Leggyakrabban a saját semitendinosus (combhajlító) inát használjuk, amelyet a műtét során több rétegben összehajtva („quadruplálva”) rögzítünk. Ez elegendő szilárdságot és hosszúságot biztosít, miközben a többi izom működését nem befolyásolja számottevően.",
     },
     {
       question: "Will I receive a prescription after my consultation?",
       answer:
-        "If medically appropriate, your provider can send a prescription to your preferred pharmacy after your virtual visit. This includes medications for common conditions, mental health, and more.",
+        "A műtét artroszkópos (kulcslyuk) technikával történik. Kisebb metszésekből, kamerával és speciális műszerekkel dolgozunk. A műtét átlagosan 60–90 percig tart, és legtöbbször egynapos sebészet keretében, azaz kórházi bennfekvés nélkül végezhető.",
     },
     {
       question: "Is my health information safe and private?",
