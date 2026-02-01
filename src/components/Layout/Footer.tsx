@@ -48,7 +48,7 @@ const footerData: FooterData = {
     height: 35,
   },
   description:
-    "Sérülés után gyors és hatékony segítségre van szüksége? Forduljon hozzám bizalommal! Foglaljon időpontot mielőbb és éljen újra fájdalommentesen!",
+    "Sérülés után gyors és hatékony segítségre van szüksége? Forduljon Dr. Majzik Ernőhöz bizalommal! Foglaljon időpontot mielőbb és éljen újra fájdalommentesen!",
   socialLinks: [
     {
       platform: "facebook",
