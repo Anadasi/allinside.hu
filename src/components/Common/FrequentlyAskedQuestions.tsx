@@ -14,7 +14,7 @@ const FrequentlyAskedQuestions = () => {
     },
     {
       id: 2,
-      question: "Can I use Doutor if I don't have insurance?",
+      question: "Mikor javasolt az All-inside technika?",
       answer: [
         "Yes, you can. Doutor works with or without insurance. If you don’t have coverage, you can still book a visit and pay a flat, transparent fee directly.",
       ],

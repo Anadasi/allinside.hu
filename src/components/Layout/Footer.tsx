@@ -89,16 +89,16 @@ const footerData: FooterData = {
     {
       title: "Rendelések",
       links: [
+                { 
+          text: "Hétfő", 
+          url: "https://www.siomedical.hu/" 
+        },
         { 
           text: "Siómedical Egészségügyi Központ", 
           url: "https://www.siomedical.hu/" 
         },
         { 
           text: "8600 Siófok, Semmelweis u. 1.", 
-          url: "https://www.siomedical.hu/" 
-        },
-        { 
-          text: "Hétfő", 
           url: "https://www.siomedical.hu/" 
         },
       ],

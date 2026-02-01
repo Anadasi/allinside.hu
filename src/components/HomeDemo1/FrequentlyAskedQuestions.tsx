@@ -14,9 +14,19 @@ const FrequentlyAskedQuestions = () => {
         "Az „All-inside” egy modern, minimálisan invazív eljárás az elülső keresztszalag (ACL) pótlására. A hagyományos műtéteknél általában teljes csontcsatornát fúrnak keresztül a combcsonton és a sípcsonton. Ezzel szemben az All-inside technika csak félig (belülről) fúr, így kevesebb csontot és szövetet érint. Ez kevesebb fájdalmat, kisebb heget, gyorsabb felépülést és esztétikusabb gyógyulást eredményez.",
     },
     {
-      question: "Can I use Doutor if I don't have insurance?",
+      question: "Mikor javasolt az All-inside technika?",
       answer:
-        "Yes, you can use Doutor without insurance. We offer transparent, affordable self-pay pricing for all services, so you can access care without worrying about coverage.",
+        "Az eljárás ideális:
+fiatal, aktív életet élő pácienseknek,
+
+
+hobbi- és élsportolóknak,
+
+
+ha fontos a gyors visszatérés a sportba vagy fizikai munkába,
+
+
+illetve olyan esetekben is, amikor revíziós (újrakezdett) műtétre van szükség.",
     },
     {
       question: "What types of conditions can Doutor treat?",
