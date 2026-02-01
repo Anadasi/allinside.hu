@@ -40,7 +40,7 @@ const Sidebar = () => {
       alt: "Experience Virtual Care",
     },
     description: "Experience Virtual Care Today",
-    buttonText: "Register Now - It's Free",
+    buttonText: "Időpontkérés",
     buttonLink: "/register",
     shapeImage: {
       src: "/images/shape.png",
