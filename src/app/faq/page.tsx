@@ -10,7 +10,7 @@ export default function Page() {
 
       <PageBanner
         pageTitle="Gyakori kérdések"
-        shortText="Find quick answers to common questions about Doutor's services, appointments, and healthcare support."
+        shortText="Az alábbi gyakran ismételt kérdések segítenek megérteni az All-inside keresztszalag-műtét lényegét, előnyeit és a felépülés folyamatát."
         homePageUrl="/"
         homePageText="Home"
         activePageText="FAQ's"

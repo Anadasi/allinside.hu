@@ -43,6 +43,21 @@ const FrequentlyAskedQuestions = () => {
       answer:
         "Mint minden műtétnél, itt is előfordulhatnak ritka szövődmények: fertőzés, vérömleny, ízületi merevség vagy fájdalom. Az All-inside technika azonban kisebb invazivitása miatt csökkentheti ezek kockázatát.",
     },
+        {
+      question: "Milyen életminőség várható a műtét után?",
+      answer:
+        "A legtöbb páciens teljesen visszanyeri térde stabilitását és funkcióját. Az All-inside eljárás lehetővé teszi a sporthoz való biztonságos visszatérést, akár profi szinten is. A megfelelő rehabilitáció és fokozatosság kulcsfontosságú a hosszú távú sikerhez.",
+    },
+        {
+      question: "Hogyan tudok felkészülni a műtétre?",
+      answer:
+        "Előzetes kivizsgálás és MRI szükséges. Fontos a térd körüli izomzat erősítése a műtét előtt (prehabilitáció). A műtét előtt részletes tájékoztatást és írásos beleegyezést is kap. Ne felejtsen el kérdéseket felírni az orvosnak!",
+    },
+        {
+      question: "Mi történik, ha nem vállalom a műtétet?",
+      answer:
+        "Kezeletlen ACL-szakadás esetén: a térd instabillá válhat, növekszik a porckopás és meniscus-sérülés kockázata, a sport és aktív élet korlátozódik. A konzervatív kezelés néhány esetben működhet, de aktív életvitel esetén a műtét a biztosabb megoldás.",
+    },
   ];
 
   // Toggle accordion item
@@ -58,15 +73,14 @@ const FrequentlyAskedQuestions = () => {
             <div className="row justify-content-center align-items-center g-4">
               <div className="col-lg-7 col-md-12">
                 <div className="left">
-                  <span className="sub">Frequently Asked Questions</span>
-                  <h2>Everything You Need to Know About Doutor</h2>
+                  <span className="sub">All-inside kisokos</span>
+                  <h2>Gyakran felmerülő kérdések</h2>
                 </div>
               </div>
               <div className="col-lg-5 col-md-12">
                 <div className="right">
                   <p>
-                    Find quick answers to common questions about virtual visits,
-                    insurance, prescriptions, and more.
+                    Az alábbi gyakran ismételt kérdések segítenek megérteni az All-inside keresztszalag-műtét lényegét, előnyeit és a felépülés folyamatát.
                   </p>
                 </div>
               </div>
