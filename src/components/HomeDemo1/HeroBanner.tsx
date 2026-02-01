@@ -67,8 +67,8 @@ function HeroBanner() {
                 </div>
 
                 <h1 className="title-animation">
-                  All-inside keresztszalagpótlás:<span><br />modern megoldás
-</span> az elülső keresztszalag sérüléseire
+                  All-inside keresztszalag műtét:<span><br />a modern sportsebészet
+</span> egyik legfejlettebb megoldása
                 </h1>
 
                 <p>
