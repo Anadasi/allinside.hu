@@ -73,7 +73,7 @@ const footerData: FooterData = {
         { text: "Bemutatkozás", url: "/doctors/profile/" },
         { text: "Gyakori kérdések", url: "/gyakori-kerdesek" },
         { text: "Adatkezelési tájékoztató", url: "/adatkezeles" },
-        { text: "Kapcsolat", url: "/contact-us" },
+        { text: "Kapcsolat", url: "/kapcsolat" },
       ],
     },
     {

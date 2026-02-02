@@ -42,7 +42,7 @@ dropdownItems: [
   {
     id: "contact",
     title: "Kapcsolat",
-    href: "/contact-us/",
+    href: "/kapcsolat",
     isDropdown: false,
 dropdownItems: [
     { title: "", href: "" } 

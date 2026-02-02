@@ -19,7 +19,6 @@ const AboutUs = () => {
       paragraphs: [
         "A gyors és pontos diagnózis után a célom nem csupán a fájdalom csökkentése, hanem a funkció teljes helyreállítása. Minden kezelés egyéni terv szerint történik, sportágspecifikusan és a sportoló céljait szem előtt tartva.",
         "Tudom, hogy minden nap számít — sportolóként nem engedheti meg magának a hosszú kihagyást vagy visszaesést. Az én feladatom, hogy Ön gyorsan, stabilan és fájdalommentesen térjen vissza a pályára — akár hobbisportoló, akár profi versenyző.",
-        "With cutting-edge technology, strong data security practices, and a passionate care team, we've helped hundreds of thousands of patients receive treatment quickly, safely, and comfortably.",
       ],
       link: {
         text: "Időpontkérés",
