@@ -27,14 +27,18 @@ dropdownItems: [
   ],
   },
   {
-    id: "tovabbi",
-    title: "További kezelések",
-    href: "https://www.drmajzikerno.hu/",
-    isDropdown: false,
-dropdownItems: [
-    { title: "", href: "" } 
-  ],
-  },
+  id: "tovabbi",
+  title: "További kezelések",
+  href: "https://www.drmajzikerno.hu/szolgaltatasok/", 
+  isDropdown: true, 
+  dropdownItems: [
+    { title: "Bokaműtétek", href: "https://www.drmajzikerno.hu/szolgaltatasok/bokamutetek/" },
+    { title: "Könyökműtétek", href: "https://www.drmajzikerno.hu/szolgaltatasok/konyokmutetek/" },
+    { title: "Térdműtétek", href: "https://www.drmajzikerno.hu/szolgaltatasok/terdmutetek/" },
+    { title: "Vállműtétek", href: "https://www.drmajzikerno.hu/szolgaltatasok/vallmutetek/" },
+    { title: "PRP Kezelések", href: "https://www.drmajzikerno.hu/szolgaltatasok/prp-kezelesek/" },
+  ],
+},
   {
     id: "contact",
     title: "Kapcsolat",
