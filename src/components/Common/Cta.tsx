@@ -11,17 +11,14 @@ const Cta = () => {
             <div className="col-lg-6 col-md-12">
               <div className="overview-content">
                 <h2>
-                  Insurance or Not — You&apos;re Always Covered with Doutor
+                  Ne hagyja, hogy a fájdalom korlátozza a mozgásban, kérjen időpontot most!
                 </h2>
                 <p>
-                  Whether you have full coverage, partial benefits, or no
-                  insurance at all, Doutor gives you affordable access to
-                  certified doctors anytime you need care—no barriers, no hidden
-                  fees.
+                “Sportsebészként tudom, hogy minden hét, minden nap, minden perc számít betegeim számára, hiszen a cél mindenkinél ugyanaz: mielőbb visszatérni a pályára, a mindennapi életbe.”
                 </p>
 
                 <div className="overview-btn">
-                  <Link href="/register" className="default-btn">
+                  <Link href="/kapcsolat" className="default-btn">
                     <span className="left">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +33,7 @@ const Cta = () => {
                         />
                       </svg>
                     </span>
-                    <strong>Register Now</strong> - It&apos;s Free
+                    <strong>Időpontkérés</strong>
                     <span className="right">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

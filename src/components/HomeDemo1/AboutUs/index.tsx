@@ -6,8 +6,8 @@ const AboutUs = () => {
   // Dynamic data
   const aboutData = {
     title: {
-      subtitle: "A térdsérülés gyakori sporttal kapcsolatos sérülés",
-      title: "Sérülés után gyors és hatékony segítségre van szüksége?",
+      subtitle: "A leggyakoribb sportsérülés",
+      title: "Térdsérülés után gyors és hatékony segítségre van szüksége?",
       description:
         "A sportolás — legyen szó hobbiról vagy versenyszintű tevékenységről — mindig magában hordozza a sérülés kockázatát. Egy rossz mozdulat, egy ütközés, túlterhelés vagy egy visszatérő fájdalom mind elég ahhoz, hogy megálljt parancsoljon a teljesítménynek. Itt jövök én a képbe, sportsebészként: célom, hogy a lehető leggyorsabban és legbiztonságosabban segítsem visszatérni a mozgáshoz, az edzésekhez és a versenyekhez.",
     },
@@ -19,6 +19,7 @@ const AboutUs = () => {
       paragraphs: [
         "A gyors és pontos diagnózis után a célom nem csupán a fájdalom csökkentése, hanem a funkció teljes helyreállítása. Minden kezelés egyéni terv szerint történik, sportágspecifikusan és a sportoló céljait szem előtt tartva.",
         "Tudom, hogy minden nap számít — sportolóként nem engedheti meg magának a hosszú kihagyást vagy visszaesést. Az én feladatom, hogy Ön gyorsan, stabilan és fájdalommentesen térjen vissza a pályára — akár hobbisportoló, akár profi versenyző.",
+        "Ha sportolás közben megsérült, vagy tartós fájdalom akadályozza a mozgásban, ne halogassa a kezelést! Vegye fel velem a kapcsolatot, és induljunk el együtt a gyógyulás útján – hogy újra ott legyen, ahol a legjobban érzi magát: a mozgásban, a pályán, a versenyben.",
       ],
       link: {
         text: "Időpontkérés",
