@@ -20,7 +20,7 @@ export const menus = [
   {
     id: "gyakori",
     title: "Gyakori kérdések",
-    href:  "/faq/",
+    href:  "/gyakori-kerdesek",
     isDropdown: false,
 dropdownItems: [
     { title: "", href: "" } 
