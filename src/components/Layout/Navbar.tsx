@@ -133,18 +133,18 @@ function Navbar() {
           {/* others-options */}
           <div className="others-option align-items-center overflow-hidden d-none d-sm-flex">
             <div className="option-item">
-              <Link href="/login" className="login-btn">
+              <Link href="Tel:+36309405846" className="login-btn">
                 <Image
-                  src="/images/icons/user.svg"
+                  src="/images/icons/benefit2.svg"
                   alt="user"
                   width={20}
                   height={20}
                 />
-                <span>Login</span>
+                <span>+36 30 940 5846</span>
               </Link>
             </div>
             <div className="option-item">
-              <Link href="/register" className="default-btn">
+              <Link href="/contact-us" className="default-btn">
                 <span className="left">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
