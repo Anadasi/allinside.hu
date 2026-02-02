@@ -89,7 +89,7 @@ function FrequentlyAskedQuestions() {
             <div className="col-xl-6 col-md-12">
               <div className="faq-wrap-image">
                 <Image
-                  src="/images/faq2.jpg"
+                  src="/images/faq.jpg"
                   alt="faq"
                   width={1050}
                   height={1400}

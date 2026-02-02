@@ -54,7 +54,7 @@ const FrequentlyAskedQuestions = () => {
         "Előzetes kivizsgálás és MRI szükséges. Fontos a térd körüli izomzat erősítése a műtét előtt (prehabilitáció). A műtét előtt részletes tájékoztatást és írásos beleegyezést is kap. Ne felejtsen el kérdéseket felírni az orvosnak!",
     },
         {
-      question: "Mi történik, ha nem vállalom a műtétet?",
+      question: "Mi történik, ha halogatom a műtétet?",
       answer:
         "Kezeletlen ACL-szakadás esetén: a térd instabillá válhat, növekszik a porckopás és meniscus-sérülés kockázata, a sport és aktív élet korlátozódik. A konzervatív kezelés néhány esetben működhet, de aktív életvitel esetén a műtét a biztosabb megoldás.",
     },
