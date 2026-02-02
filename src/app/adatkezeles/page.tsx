@@ -8,11 +8,11 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Privacy Policy"
-        shortText="Your trust matters to us. At Doutor, we are committed to protecting your personal information and ensuring your data is kept safe, secure, and confidential."
+        pageTitle="Adatkezelési tájékoztató"
+        shortText="Az Ön bizalma kiemelten fontos számunkra. Elkötelezettek vagyunk pácienseink személyes adatainak védelme mellett, és garantáljuk azok biztonságos, bizalmas kezelését."
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Privacy Policy"
+        activePageText="Adatkezelési tájékoztató"
         image="/images/page-banner.png"
       />
 
@@ -20,104 +20,74 @@ export default function Page() {
         <div className="container">
           <div className="privacy-policy-content">
             <p>
-              <i>This Privacy Policy was last updated on September 1, 2025.</i>
+              <i>Az Adatkezelési tájékoztató legutolsó frissítése: 2026. január 30.</i>
             </p>
             <h3>
-              <span>1.</span> What Data We Get
+              <span>1.</span> Az Adatkezelő adatai
             </h3>
-            <blockquote className="blockquote">
-              <p>
-                We collect certain data from you directly, like information you
-                enter yourself, data about your participation in courses, and
-                data from third-party platforms you connect with Doutor. We also
-                collect some data automatically, like information about your
-                device and what parts of our Services you interact with or spend
-                time using.
-              </p>
-            </blockquote>
+             <ul>
+              <li>Név: Dr. Majzik Ernő</li>
+              <li>Cégnév: Knee Life Kft.</li>
+              <li>Székhely: 2045 Törökbálint, Tükörhegy utca 15. 1. ép.</li>
+               <li>Adószám: 25078754-2-13</li>
+              <li>Email: rendeles@drmajzikerno.hu</li>
+              <li>Telefon: +36 30 940 5846</li>
+            </ul>
             <h3>
-              <span>2.</span> Data You Provide to Us
+              <span>2.</span> A kezelt adatok köre és célja
+            </h3>
+            <p>Az oldal használata során az alábbi célokból gyűjtünk adatokat:</p>
+            <ul>
+            <li>Kapcsolatfelvétel: Amikor Ön üzenetet küld nekünk, vagy időpontot kér tőlünk. (Név, e-mail cím, telefonszám).</li>
+            <li>Időpontfoglalás: Az egészségügyi szolgáltatás igénybevételéhez szükséges alapvető adatok.</li>
+            <li>Sütik (Cookies): A weboldal alapvető működéséhez és statisztikai elemzésekhez (pl. látogatószám mérése).</li>
+            </ul>
+            <h3>
+              <span>3.</span> Az adatkezelés jogalapja
             </h3>
             <p>
-              We may collect different data from or about you depending on how
-              you use the Services. Below are some examples to help you better
-              understand the data we collect.
+            Az adatkezelés az Ön önkéntes hozzájárulásán alapul (GDPR 6. cikk (1) bekezdés a. pont), illetve egészségügyi szolgáltatás esetén jogi kötelezettség teljesítésén.
             </p>
             <h3>
-              <span>3.</span> How We Get Data About You
+              <span>4.</span> Az adatok tárolásának időtartama
+            </h3>
+                  <ul>
+              <li>A kapcsolati űrlapon megadott adatokat a válaszadást követő 1 évig őrizzük meg.</li>
+              <li>A számlázási adatokat a törvényi előírásoknak megfelelően 8 évig tároljuk.</li>
+                  </ul>
+            <h3>
+              <span>5.</span> Adatfeldolgozók (Kik láthatják még az adatokat?)
             </h3>
             <p>
-              We use tools like cookies, web beacons, analytics services, and
-              advertising providers to gather the data listed above. Some of
-              these tools offer you the ability to opt out of data collection.
-            </p>
-            <h3>
-              <span>4.</span> What We Use Your Data For
-            </h3>
-            <ol>
-              <li>Responding to your questions and concerns;</li>
-              <li>
-                Sending you administrative messages and information, including
-                messages from instructors and teaching assistants, notifications
-                about changes to our Service, and updates to our agreements;
-              </li>
-              <li>
-                Sending push notifications to your wireless device to provide
-                updates and other relevant messages (which you can manage from
-                the “options” or “settings” page of the mobile app);
-              </li>
-            </ol>
-            <h3>
-              <span>5.</span> Your Choices About the Use of Your Data
-            </h3>
-            <p>
-              You can choose not to provide certain data to us, but you may not
-              be able to use certain features of the Services.
+            Az adatokat harmadik félnek nem adjuk el. Bizonyos technikai szolgáltatók azonban hozzáférhetnek az adatokhoz:
             </p>
             <ul>
               <li>
-                To stop receiving promotional communications from us, you can
-                opt out by using the unsubscribe mechanism in the promotional
-                communication you receive or by changing the email preferences
-                in your account. Note that regardless of your email preference
-                settings, we will send you transactional and relationship
-                messages regarding the Services, including administrative
-                confirmations, order confirmations, important updates about the
-                Services, and notices about our policies.
+              Tárhelyszolgáltató:
               </li>
               <li>
-                The browser or device you use may allow you to control cookies
-                and other types of local data storage. Your wireless device may
-                also allow you to control whether location or other data is
-                collected and shared. You can manage Adobe’s LSOs through their
-                Website Storage Settings panel.
-              </li>
-              <li>
-                To get information and control cookies used for tailored
-                advertising from participating companies, see the consumer
-                opt-out pages for the Network Advertising Initiative and Digital
-                Advertising Alliance, or if you’re located in the European
-                Union, visit the Your Online Choices site. To opt out of
-                Google’s display advertising or customize Google Display Network
-                ads, visit the Google Ads Settings page. To opt out of Taboola’s
-                targeted ads, see the Opt-out Link in their Cookie Policy.
-              </li>
-              <li>
-                To update data you provide directly, log into your account and
-                update your account at any time.
+                E-mail szolgáltató:
               </li>
             </ul>
             <h3>
-              <span>6.</span> Our Policy Concerning Children
+              <span>6.</span> Az Ön jogai
             </h3>
-            <p>
-              We recognize the privacy interests of children and encourage
-              parents and guardians to take an active role in their children’s
-              online activities and interests. Children under 13 (or under 16 in
-              the European Economic Area) should not use the Services. If we
-              learn that we’ve collected personal data from a child under those
-              ages.
-            </p>
+            <p>Önnek joga van:</p>
+            <ul>
+            <li>Tájékoztatást kérni személyes adatai kezeléséről.</li>
+            <li>Kérni adatainak helyesbítését vagy törlését.</li>
+            <li>Tiltakozni az adatkezelés ellen.</li>
+            <li>Adathordozhatósághoz való jogával élni.</li>
+              </ul>
+               <h3>
+              <span>7.</span> Jogorvoslati lehetőségek
+            </h3>
+            <p>Amennyiben úgy érzi, megsértettük adatait, kérjük, keressen minket bizalommal a fenti e-mail címen. Emellett panasszal fordulhat a hatósághoz is:</p>
+            <ul>
+            <li>NAIH (Nemzeti Adatvédelmi és Információszabadság Hatóság)</li>
+            <li>Cím: 1055 Budapest, Falk Miksa utca 9-11.</li>
+            <li>Honlap: www.naih.hu</li>
+              </ul>
           </div>
         </div>
       </div>
