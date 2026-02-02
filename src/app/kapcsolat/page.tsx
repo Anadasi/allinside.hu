@@ -13,8 +13,8 @@ export default function Page() {
         pageTitle="Kapcsolat"
         shortText="Amennyiben kérdése van az all-inside keresztszalag-rekonstrukcióval vagy a műtéti lehetőségekkel kapcsolatban, forduljon hozzánk bizalommal."
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="Contact Us"
+        homePageText="Főoldal"
+        activePageText="Kapcsolat"
         image="/images/page-banner.png"
       />
 
