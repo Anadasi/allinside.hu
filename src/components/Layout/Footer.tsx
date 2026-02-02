@@ -71,7 +71,7 @@ const footerData: FooterData = {
       title: "Linkek",
       links: [
         { text: "Bemutatkozás", url: "/doctors/profile/" },
-        { text: "Gyakori kérdések", url: "/faq" },
+        { text: "Gyakori kérdések", url: "/gyakori-kerdesek" },
         { text: "Adatvédelmi tájékoztató", url: "/adatkezeles" },
         { text: "Kapcsolat", url: "/contact-us" },
       ],
