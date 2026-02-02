@@ -6,10 +6,10 @@ const AboutUs = () => {
   // Dynamic data
   const aboutData = {
     title: {
-      subtitle: "About Us",
-      title: "Transforming Healthcare Through Technology and Compassion",
+      subtitle: "A térdsérülés gyakori sporttal kapcsolatos sérülés",
+      title: "Sérülés után gyors és hatékony segítségre van szüksége?",
       description:
-        "At Doutor, we're redefining how people access medical care—by making it faster, more affordable, and truly patient-first.",
+        "A sportolás — legyen szó hobbiról vagy versenyszintű tevékenységről — mindig magában hordozza a sérülés kockázatát. Egy rossz mozdulat, egy ütközés, túlterhelés vagy egy visszatérő fájdalom mind elég ahhoz, hogy megálljt parancsoljon a teljesítménynek. Itt jövök én a képbe, sportsebészként: célom, hogy a lehető leggyorsabban és legbiztonságosabban segítsem visszatérni a mozgáshoz, az edzésekhez és a versenyekhez.",
     },
     content: {
       image: {
@@ -17,13 +17,13 @@ const AboutUs = () => {
         alt: "image",
       },
       paragraphs: [
-        "Doutor was founded with a simple mission: to remove the barriers between patients and the quality care they deserve. In a world where time is limited and access to healthcare isn't always easy, we believe in a smarter, more human way to care for people—digitally.",
-        "We connect users to board-certified, highly experienced doctors who are available 24/7 via secure video, audio, and messaging consultations.",
+        "A gyors és pontos diagnózis után a célom nem csupán a fájdalom csökkentése, hanem a funkció teljes helyreállítása. Minden kezelés egyéni terv szerint történik, sportágspecifikusan és a sportoló céljait szem előtt tartva.",
+        "Tudom, hogy minden nap számít — sportolóként nem engedheti meg magának a hosszú kihagyást vagy visszaesést. Az én feladatom, hogy Ön gyorsan, stabilan és fájdalommentesen térjen vissza a pályára — akár hobbisportoló, akár profi versenyző.",
         "With cutting-edge technology, strong data security practices, and a passionate care team, we've helped hundreds of thousands of patients receive treatment quickly, safely, and comfortably.",
       ],
       link: {
-        text: "Learn More",
-        href: "/about-us",
+        text: "Időpontkérés",
+        href: "/kapcsolat",
       },
     },
     statistics: [
