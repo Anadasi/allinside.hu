@@ -8,7 +8,7 @@ const AboutUsContent = () => {
       subtitle: "About Us",
       title: "Transforming Healthcare Through Technology and Compassion",
       description:
-        "At Doutor, we're redefining how people access medical care—by making it faster, more affordable, and truly patient-first.",
+        "Ez az innovatív eljárás Magyarországon elsőként Majzik doktor nevéhez fűződik, aki 2022 szeptembere óta alkalmazza sikeresen az All-inside keresztszalag-pótlási technikát. Jelenleg ő az egyetlen szakember hazánkban, aki több száz ilyen típusú műtétet végzett el.",
     },
     content: {
       image: {
@@ -17,7 +17,7 @@ const AboutUsContent = () => {
       },
       paragraphs: [
         "Doutor was founded with a simple mission: to remove the barriers between patients and the quality care they deserve. In a world where time is limited and access to healthcare isn't always easy, we believe in a smarter, more human way to care for people—digitally.",
-        "We connect users to board-certified, highly experienced doctors who are available 24/7 via secure video, audio, and messaging consultations.",
+        "Az All-inside módszer különleges előnye, hogy gyermek- és serdülőkorban is biztonságosan alkalmazható, mivel ez az egyetlen keresztszalag-pótlási technika, amely elvégezhető a növekedési zónák lezárulása előtt, jellemzően 12–18 éves korban.",
         "With cutting-edge technology, strong data security practices, and a passionate care team, we've helped hundreds of thousands of patients receive treatment quickly, safely, and comfortably.",
       ],
     },

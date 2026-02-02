@@ -78,7 +78,7 @@ function ServicesLists() {
     description: "Experience Virtual Care Today",
     link: {
       href: "/register",
-      text: "Register Now - It-s Free",
+      text: "Időpontkérés",
     },
     shapeImage: "/images/services/shape.png",
   };
