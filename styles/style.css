@@ -14984,11 +14984,14 @@ FAQ Area CSS
 
 .faq-image {
   background-position: center center;
-  background-size: cover;
+  background-size: contain;   /* Megtartja az eredeti arányokat és nem vágja le */
   background-repeat: no-repeat;
-  height: 100%;
+  height: 805px;              /* Az új kép valódi magassága */
+  max-height: 100%;           /* Biztosítja, hogy ne lógjon ki a szülő elemből */
   margin-right: 100px;
   border-radius: 15px;
+  width: 100%;                /* Kitölti a szélességet */
+  max-width: 768px;           /* De nem engedi nagyobbra nőni a kép saját szélességénél */
 }
 
 .faq-accordion .accordion .accordion-item {
