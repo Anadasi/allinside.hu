@@ -87,14 +87,20 @@ function FrequentlyAskedQuestions() {
           </div>
           <div className="row justify-content-center align-items-center g-4">
             <div className="col-xl-6 col-md-12">
-              <div className="faq-wrap-image">
-                <Image
-                  src="/images/faq.jpg"
-                  alt="faq"
-                  width={1050}
-                  height={1400}
-                />
-              </div>
+             <div className="faq-wrap-image" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <Image
+    src="/images/faq.jpg"
+    alt="faq"
+    width={768}       
+    height={805}          
+    style={{ 
+      width: '100%',      
+      height: 'auto',    
+      maxWidth: '1050px', 
+      objectFit: 'contain' 
+    }}
+  />
+</div>
             </div>
             <div className="col-xl-6 col-md-12">
               <div className="faq-accordion">
