@@ -87,11 +87,11 @@ function PricingPlanThree() {
 
                   <ul className="list">
                     <li>
-                      <h5>Type of Care</h5>
+                      <h5>Szempontok</h5>
                       <h5>
                         {plan.hasInsurance
                           ? "Your Cost (Estimate)"
-                          : "Flat Fee"}
+                          : ""}
                       </h5>
                     </li>
                     {plan.services.map((service, idx) => (

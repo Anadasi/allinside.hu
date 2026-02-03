@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
       id: 2,
       title: "Insurance or No Insurance",
       description:
-        "Use your existing insurance or pay a transparent flat fee. We believe healthcare should fit your financial situation—not complicate it.",
+        "Use your existing insurance or pay a transparent . We believe healthcare should fit your financial situation—not complicate it.",
     },
     {
       id: 3,
