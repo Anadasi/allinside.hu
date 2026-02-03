@@ -9,11 +9,7 @@ function PricingPlan() {
       title: "All-inside technika",
       subtitle: "Modern és kíméletes műtéti eljárás",
       hasInsurance: false,
-      insuranceOptions: [
-        { value: "0", label: "Select your insurance plan" },
-        { value: "1", label: "Health Insurance" },
-        { value: "2", label: "Life Insurance" },
-      ],
+      insuranceOptions: [],
       services: [
         { type: "Kis seb, gyors gyógyulás", cost: "✓" },
         { type: "Kevesebb fájdalom", cost: "✓" },
