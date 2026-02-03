@@ -25,7 +25,7 @@ export default function Home() {
 
       <OurServices />
 
-      <OurDoctors />
+      {/* <OurDoctors /> */}
 
       <HowItWorks />
 
