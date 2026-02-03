@@ -99,7 +99,7 @@ const LoginForm = () => {
             <div className="bottom-text">
               <span>
                 Don&apos;t have an account?{" "}
-                <Link href="/register">Register Now - It&apos;s Free</Link>
+                <Link href="/kapcsolat">Register Now - It&apos;s Free</Link>
               </span>
             </div>
           </div>

@@ -12,8 +12,8 @@ export default function Page() {
         pageTitle="Gyakori kérdések"
         shortText="Az alábbi gyakran ismételt kérdések segítenek megérteni az All-inside keresztszalag-műtét lényegét, előnyeit és a felépülés folyamatát."
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="FAQ's"
+        homePageText="Főoldal"
+        activePageText="Gyakori kérdések"
         image="/images/page-banner.png"
       />
 
