@@ -37,7 +37,7 @@ export default function Home() {
 
       <DownloadOurApp />
 
-      <OurBlog />
+      {/* <OurBlog /> */}
 
       <Cta />
     </>
