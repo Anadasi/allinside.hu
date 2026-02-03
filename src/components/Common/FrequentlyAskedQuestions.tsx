@@ -54,6 +54,27 @@ const FrequentlyAskedQuestions = () => {
         "Mint minden műtétnél, itt is előfordulhatnak ritka szövődmények: fertőzés, vérömleny, ízületi merevség vagy fájdalom. Az All-inside technika azonban kisebb invazivitása miatt csökkentheti ezek kockázatát.",
       ],
     },
+        {
+      id: 8,
+      question: "Milyen életminőség várható a műtét után?",
+      answer: [
+        "A legtöbb páciens teljesen visszanyeri térde stabilitását és funkcióját. Az All-inside eljárás lehetővé teszi a sporthoz való biztonságos visszatérést, akár profi szinten is. A megfelelő rehabilitáció és fokozatosság kulcsfontosságú a hosszú távú sikerhez.",
+      ],
+    },
+        {
+      id: 9,
+      question: "Előzetes kivizsgálás és MRI szükséges. Fontos a térd körüli izomzat erősítése a műtét előtt (prehabilitáció). A műtét előtt részletes tájékoztatást és írásos beleegyezést is kap. Ne felejtsen el kérdéseket felírni az orvosnak!",
+      answer: [
+        "",
+      ],
+    },
+        {
+      id: 10,
+      question: "Mi történik, ha halogatom a műtétet?",
+      answer: [
+        "Kezeletlen ACL-szakadás esetén: a térd instabillá válik, növekszik a porckopás és meniscus-sérülés kockázata, a sport és aktív élet korlátozódik. A konzervatív kezelés néhány esetben működhet, de aktív életvitel esetén a műtét a biztosabb megoldás.",
+      ],
+    },
   ];
 
   // State to track which FAQ is open

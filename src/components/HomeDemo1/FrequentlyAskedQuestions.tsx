@@ -56,7 +56,7 @@ const FrequentlyAskedQuestions = () => {
         {
       question: "Mi történik, ha halogatom a műtétet?",
       answer:
-        "Kezeletlen ACL-szakadás esetén: a térd instabillá válhat, növekszik a porckopás és meniscus-sérülés kockázata, a sport és aktív élet korlátozódik. A konzervatív kezelés néhány esetben működhet, de aktív életvitel esetén a műtét a biztosabb megoldás.",
+        "Kezeletlen ACL-szakadás esetén: a térd instabillá válik, növekszik a porckopás és meniscus-sérülés kockázata, a sport és aktív élet korlátozódik. A konzervatív kezelés néhány esetben működhet, de aktív életvitel esetén a műtét a biztosabb megoldás.",
     },
   ];
 
