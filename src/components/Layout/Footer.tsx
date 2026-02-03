@@ -146,7 +146,7 @@ function Footer() {
           <div className="container">
             <div className="footer-top-content">
               <div className="row justify-content-center align-items-center g-4">
-                <div className="col-lg-12 col-md-12">
+                <div className="col-lg-9 col-md-12">
                   <div className="left">
                     <div className="widget-logo">
                       <Link href="/">
@@ -179,11 +179,12 @@ function Footer() {
                 </div>
               </div>
             </div>
+            
             <div className="row justify-content-center g-4">
-              <div className="col-lg-9 col-md-12">
+              <div className="col-lg-12 col-md-12">
                 <div className="row justify-content-center g-4">
                   {footerData.sections.map((section, index) => (
-                    <div className="col-lg-3 col-sm-6" key={index}>
+                    <div className="col-lg col-md-4 col-sm-6" key={index}>
                       <div className="single-footer-widget">
                         <h3>{section.title}</h3>
                         <ul className="links">
@@ -202,13 +203,10 @@ function Footer() {
                   ))}
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12">
-                <div className="single-footer-widget end-style">
-                </div>
-              </div>
             </div>
           </div>
         </div>
+
         <div className="container">
           <div className="copyright-area">
             <div className="row justify-content-center align-items-center g-4">
