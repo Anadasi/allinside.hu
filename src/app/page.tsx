@@ -35,7 +35,7 @@ export default function Home() {
 
       <FrequentlyAskedQuestions />
 
-      <DownloadOurApp />
+      {/* <DownloadOurApp /> */}
 
       {/* <OurBlog /> */}
 
