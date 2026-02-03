@@ -68,7 +68,7 @@ function PricingPlan() {
                   </div>
 
                   {/* Insurance dropdown */}
-                  {plan.hasInsurance && (
+                 {/* {plan.hasInsurance && (
                     <div className="price-select">
                       <select className="form-select">
                         {plan.insuranceOptions?.map((option) => (
@@ -79,7 +79,7 @@ function PricingPlan() {
                       </select>
                     </div>
                   )}
-
+*/}
                   <ul className="list">
                     <li>
                       <h5>Type of Care</h5>
