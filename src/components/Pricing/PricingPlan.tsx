@@ -21,18 +21,6 @@ function PricingPlan() {
         { type: "Esztétikusabb sebhelyek", cost: "✓" },
        { type: "Gyorsabb sporthoz visszatérés", cost: "✓" },
       ],
-      buttons: [
-        {
-          text: "Create Your Account",
-          href: "/register",
-          className: "default-btn",
-        },
-        {
-          text: "Visit Your Provider Portal",
-          href: "/login",
-          className: "link-btn",
-        },
-      ],
     },
     {
       id: 2,
@@ -45,13 +33,6 @@ function PricingPlan() {
         { type: "Kisebb csontvesztés", cost: "✖" },
         { type: "Esztétikusabb sebhelyek", cost: "✖" },
        { type: "Gyorsabb sporthoz visszatérés", cost: "✖" },
-      ],
-      buttons: [
-        {
-          text: "Book A Visit Now",
-          href: "/book-an-appointment",
-          className: "default-btn",
-        },
       ],
     },
   ];
