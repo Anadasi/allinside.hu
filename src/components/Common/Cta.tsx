@@ -14,7 +14,7 @@ const Cta = () => {
                   Ne hagyja, hogy a fájdalom korlátozza a mozgásban, kérjen időpontot most!
                 </h2>
                 <p>
-                “Sportsebészként tudom, hogy minden hét, minden nap, minden perc számít betegeim számára, hiszen a cél mindenkinél ugyanaz: mielőbb visszatérni a pályára, a mindennapi életbe.”
+                “Sportsebészként tudom, hogy minden hét, minden nap, minden perc számít betegeim számára, hiszen a cél mindenkinél ugyanaz: mielőbb visszatérni a pályára, a mindennapi életbe.” Dr. Majzik Ernő
                 </p>
 
                 <div className="overview-btn">

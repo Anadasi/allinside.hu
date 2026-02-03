@@ -101,6 +101,18 @@ const footerData: FooterData = {
           text: "8600 Siófok, Semmelweis u. 1.", 
           url: "https://www.siomedical.hu/" 
         },
+         { 
+          text: "Szerda és Csütörtök (15:00-20:00), Péntek (11:00-17:00)", 
+          url: "https://ujbudamedicalcenter.hu/" 
+        },
+        { 
+          text: "Újbuda Medical Center", 
+          url: "https://ujbudamedicalcenter.hu/" 
+        },
+        { 
+          text: "1116 Budapest, Fehérvári út 126-128.", 
+          url: "https://ujbudamedicalcenter.hu/" 
+        },
       ],
     },
     {
