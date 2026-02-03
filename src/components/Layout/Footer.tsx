@@ -86,6 +86,21 @@ const footerData: FooterData = {
         { text: "PRP kezelések", url: "https://www.drmajzikerno.hu/szolgaltatasok/prp-kezelesek/" },
       ],
     },
+        {
+      title: "Elérhetőségek",
+      links: [
+        {
+          text: "Email: rendeles@drmajzikerno.hu",
+          url: "mailto:rendeles@drmajzikerno.hu",
+          isExternal: true,
+        },
+        {
+          text: "Telefon: +36 30 940 5846", 
+          url: "tel:+36309405846",
+          isExternal: true,
+        }
+      ],
+    },   
     {
       title: "Siófok",
       links: [
@@ -120,21 +135,6 @@ const footerData: FooterData = {
         },
       ],
     },
-    {
-      title: "Elérhetőségek",
-      links: [
-        {
-          text: "Email: rendeles@drmajzikerno.hu",
-          url: "mailto:rendeles@drmajzikerno.hu",
-          isExternal: true,
-        },
-        {
-          text: "Telefon: +36 30 940 5846", 
-          url: "tel:+36309405846",
-          isExternal: true,
-        }
-      ],
-    },   
   ],
   };
 
@@ -146,7 +146,7 @@ function Footer() {
           <div className="container">
             <div className="footer-top-content">
               <div className="row justify-content-center align-items-center g-4">
-                <div className="col-lg-9 col-md-12">
+                <div className="col-lg-12 col-md-12">
                   <div className="left">
                     <div className="widget-logo">
                       <Link href="/">
