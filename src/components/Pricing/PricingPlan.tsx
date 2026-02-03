@@ -6,18 +6,20 @@ function PricingPlan() {
   const pricingData = [
     {
       id: 1,
-      title: "With Insurance",
-      subtitle: "See if we accept your plan in seconds",
-      hasInsurance: true,
+      title: "All-inside technika",
+      subtitle: "Modern és kíméletes műtéti eljárás",
+      hasInsurance: false,
       insuranceOptions: [
         { value: "0", label: "Select your insurance plan" },
         { value: "1", label: "Health Insurance" },
         { value: "2", label: "Life Insurance" },
       ],
       services: [
-        { type: "General Medical", cost: "$0 - $60" },
-        { type: "Therapy (30-45 mins)", cost: "$0 - $120" },
-        { type: "Psychiatry (Initial)", cost: "$0 - $200" },
+        { type: "Kis seb, gyors gyógyulás", cost: "✓" },
+        { type: "Kevesebb fájdalom", cost: "✓" },
+        { type: "Kisebb csontvesztés", cost: "✓" },
+        { type: "Esztétikusabb sebhelyek", cost: "✓" },
+       { type: "Gyorsabb sporthoz visszatérés", cost: "✓" },
       ],
       buttons: [
         {
@@ -34,14 +36,15 @@ function PricingPlan() {
     },
     {
       id: 2,
-      title: "Without Insurance",
-      subtitle: "No insurance required. No surprise bills.",
+      title: "Hagyományos módszer",
+      subtitle: "Standard eljárás, erős rögzítéssel",
       hasInsurance: false,
       services: [
-        { type: "General Medical Visit", cost: "$69 / visit" },
-        { type: "Therapy Session", cost: "$139 / 45 min session" },
-        { type: "Psychiatry Evaluation", cost: "$259 / initial" },
-        { type: "Psych Follow-up", cost: "$129 / 15 min" },
+        { type: "Kis seb, gyors gyógyulás", cost: "✖" },
+        { type: "Kevesebb fájdalom", cost: "✖" },
+        { type: "Kisebb csontvesztés", cost: "✖" },
+        { type: "Esztétikusabb sebhelyek", cost: "✖" },
+       { type: "Gyorsabb sporthoz visszatérés", cost: "✖" },
       ],
       buttons: [
         {
@@ -61,18 +64,16 @@ function PricingPlan() {
             <div className="row justify-content-center align-items-center g-4">
               <div className="col-lg-7 col-md-12">
                 <div className="left">
-                  <span className="sub">Our Pricing</span>
+                  <span className="sub">Összehasonlítás</span>
                   <h2>
-                    Simple, Transparent Pricing - With or Without Insurance
+                    All-inside vs. hagyományos technika
                   </h2>
                 </div>
               </div>
               <div className="col-lg-5 col-md-12">
                 <div className="right">
                   <p>
-                    Whether you have insurance or not, Doutor makes expert
-                    healthcare affordable and accessible—without surprise fees
-                    or hidden costs.
+                    Az elülső keresztszalag pótlására több műtéti technika is rendelkezésre áll. A hagyományos és az all-inside technika célja ugyanúgy a térd stabilitásának helyreállítása, de a műtéti kivitelezés, a szöveti megterhelés és a rehabilitáció egyes részletei eltérnek.
                   </p>
                 </div>
               </div>

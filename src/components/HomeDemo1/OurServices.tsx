@@ -91,16 +91,14 @@ function OurServices() {
             <div className="row justify-content-center align-items-center g-4">
               <div className="col-lg-7 col-md-12">
                 <div className="left">
-                  <span className="sub">Our Services</span>
-                  <h2>Comprehensive Virtual Healthcare—Tailored to You</h2>
+                  <span className="sub">További részletek</span>
+                  <h2>Az All-inside eljárás szakmai szemmel</h2>
                 </div>
               </div>
               <div className="col-lg-5 col-md-12">
                 <div className="right">
                   <p>
-                    We offer a full suite of virtual care options designed to
-                    support your well-being—because your health needs don&apos;t
-                    stop, and neither do we.
+                   Az All-inside óriási előnye, hogy a csontban a furat hossza pontosan akkora, amekkora helyre a beültetett graftnak szüksége van. Másik előnye, hogy intraossealisan (a csont belsejében) nincs rögzítő elem (pl.: csavar), ezáltal az ín beépülése körkörösen lehetséges. All-inside technikánál semitendinosus és quadriceps inat is fel tudunk használni. A quadriceps ín felhasználása Észak- Amerikában és Nyugat-Európában is egyre jobban terjed a felmérések szerinti legjobb beépülése miatt.
                   </p>
                 </div>
               </div>
