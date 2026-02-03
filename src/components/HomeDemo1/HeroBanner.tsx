@@ -119,14 +119,14 @@ function HeroBanner() {
                         height={41}
                       />
                       <Image
-                        src="/images/users/user2.png"
-                        alt="user2"
+                        src="/images/users/user12.png"
+                        alt="user12"
                         width={41}
                         height={41}
                       />
                       <Image
-                        src="/images/users/user3.png"
-                        alt="user3"
+                        src="/images/users/gabor.png"
+                        alt="gabor"
                         width={41}
                         height={41}
                       />

@@ -111,8 +111,8 @@ function HeroBanner() {
                       style={{ marginRight: "-10px" }}
                     />
                     <Image
-                      src="/images/users/user3.png"
-                      alt="user3"
+                      src="/images/users/user1.png"
+                      alt="user1"
                       width={44}
                       height={44}
                       style={{ marginRight: "-10px" }}

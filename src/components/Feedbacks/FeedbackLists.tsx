@@ -53,7 +53,7 @@ const FeedbackLists = () => {
         comment:
           "Fantastic service! The consultation was quick and thorough. I highly recommend this clinic to others.",
         rating: 5,
-        image: "/images/users/user3.png",
+        image: "/images/users/user1.png",
       },
       {
         id: 4,

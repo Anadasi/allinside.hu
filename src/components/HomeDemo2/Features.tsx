@@ -77,8 +77,8 @@ const featuresData: FeatureCard[] = [
         height: 40,
       },
       {
-        src: "/images/users/user3.png",
-        alt: "user3",
+        src: "/images/users/user1.png",
+        alt: "user1",
         width: 40,
         height: 40,
       },

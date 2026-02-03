@@ -29,7 +29,7 @@ const Feedbacks = () => {
       location: "Magyarország",
       rating: 5,
       text: '"Majzik Főorvos Úr egy évekkel ezelőtti balesetemet követő elhibázott keresztszalag műtétem következményeit hozta rendbe egy újfajta technikával. Már azt hittem, hogy az állandó fájdalommal kell együtt élnem, de meggyőzött, hogy egy ismételt műtéti beavatkozással megszüntethető a fájdalom. Azóta már a seb is gyönyörűen begyógyult és a fájdalom is megszűnt. Mindig minden kérdésemre választ kaptam, ha nem a Főorvos Úrtól akkor a mindig kedves feleségétől, Katától. Köszönöm szépen a segítséget és csak ajánlani tudom mindenkinek!"',
-      image: "/images/users/user3.png",
+      image: "/images/users/user1.png",
     },
     {
       id: 3,
