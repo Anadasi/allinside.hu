@@ -63,9 +63,9 @@ const FrequentlyAskedQuestions = () => {
     },
         {
       id: 9,
-      question: "Előzetes kivizsgálás és MRI szükséges. Fontos a térd körüli izomzat erősítése a műtét előtt (prehabilitáció). A műtét előtt részletes tájékoztatást és írásos beleegyezést is kap. Ne felejtsen el kérdéseket felírni az orvosnak!",
+      question: "Hogyan tudok felkészülni a műtétre?",
       answer: [
-        "",
+        "Előzetes kivizsgálás és MRI szükséges. Fontos a térd körüli izomzat erősítése a műtét előtt (prehabilitáció). A műtét előtt részletes tájékoztatást és írásos beleegyezést is kap. Ne felejtsen el kérdéseket felírni az orvosnak!",
       ],
     },
         {
