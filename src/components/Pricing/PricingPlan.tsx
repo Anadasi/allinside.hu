@@ -98,7 +98,7 @@ function PricingPlan() {
                   </ul>
 
                   <div className="price-btn">
-                    {plan.buttons?.map((button, idx) => (
+                    {plan.buttons?.map((button: any, idx) => (
                       <Link
                         key={idx}
                         href={button.href}
