@@ -17,6 +17,7 @@ function PricingPlan() {
         { type: "Esztétikusabb sebhelyek", cost: "✓" },
        { type: "Gyorsabb sporthoz visszatérés", cost: "✓" },
       ],
+      buttons: [],
     },
     {
       id: 2,
