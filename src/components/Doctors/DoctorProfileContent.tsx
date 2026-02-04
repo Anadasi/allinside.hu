@@ -335,7 +335,7 @@ const DoctorProfileContent = () => {
                           activeTab === 1 ? "active" : ""
                         }`}
                       >
-                        Services
+                        Bemutatkozás
                       </button>
                     </li>
                     <li className="nav-item">
@@ -346,7 +346,7 @@ const DoctorProfileContent = () => {
                           activeTab === 2 ? "active" : ""
                         }`}
                       >
-                        Experience
+                        Szakmai pályafutás
                       </button>
                     </li>
                     <li className="nav-item">
@@ -357,7 +357,7 @@ const DoctorProfileContent = () => {
                           activeTab === 3 ? "active" : ""
                         }`}
                       >
-                        About
+                        Hitvallás
                       </button>
                     </li>
                   </ul>
@@ -472,83 +472,10 @@ const DoctorProfileContent = () => {
                               Professional Experience & Medical Background
                             </h3>
                             <p>
-                              Learn more about your doctor&apos;s clinical journey,
-                              telehealth expertise, & dedication to
-                              patient-centered care.
+                              1995-ben végeztem a SOTE Általános Orvostudományi Karán, majd 2000-ben Traumatológiai szakvizsgát tettem. 19 évig dolgoztam a Székesfehérvári Kórház Traumatológiáján és Sportsebészetén, ahonnan 2016-ban kerültem át a Siófoki Kórházhoz, ahol a Baleseti sebészeti Osztály vezetője lettem, valamint létrehoztam a Sportsebészeti részleget. 2021 januárjától új kihívások elé néztem és orvosigazgatóként kezdtem el vezetni a Budaörsi Egészségcentrumot. Svájcban, Ausztriában és Németországban több tanulmányúton vettem részt elsősorban a Sporttraumatológia tárgykörében. Sportsebészként számos kézilabda, futball, valamint kosárlabdaklubbal szerződtem. Többek között a Magyar Jégkorong válogatott orvosa vagyok 2003 óta.
                             </p>
                           </div>
-                          <div className="items">
-                            <div className="item">
-                              <h4>Years of Practice:</h4>
-                              <ul>
-                                <li>
-                                  <span>
-                                    <b>
-                                      {
-                                        doctorData.experienceDetails
-                                          .yearsOfPractice
-                                      }
-                                    </b>
-                                  </span>
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="item">
-                              <h4>Previous Institutions:</h4>
-                              <ul>
-                                {doctorData.experienceDetails.previousInstitutions.map(
-                                  (institution, index) => (
-                                    <li key={index}>
-                                      <Image
-                                        src="/images/check.svg"
-                                        alt="check"
-                                        width={16}
-                                        height={12}
-                                      />
-                                      <span>{institution}</span>
-                                    </li>
-                                  )
-                                )}
-                              </ul>
-                            </div>
-                            <div className="item">
-                              <h4>Special Clinical Focus:</h4>
-                              <ul>
-                                {doctorData.experienceDetails.specialClinicalFocus.map(
-                                  (focus, index) => (
-                                    <li key={index}>
-                                      <Image
-                                        src="/images/check.svg"
-                                        alt="check"
-                                        width={16}
-                                        height={12}
-                                      />
-                                      <span>{focus}</span>
-                                    </li>
-                                  )
-                                )}
-                              </ul>
-                            </div>
-                            <div className="item">
-                              <h4>Languages Spoken:</h4>
-                              <ul>
-                                {doctorData.experienceDetails.languagesSpoken.map(
-                                  (language, index) => (
-                                    <li key={index}>
-                                      <Image
-                                        src="/images/check.svg"
-                                        alt="check"
-                                        width={16}
-                                        height={12}
-                                      />
-                                      <span>{language}</span>
-                                    </li>
-                                  )
-                                )}
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+ 
                       </div>
                     )}
                     {activeTab === 3 && (
