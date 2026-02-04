@@ -24,13 +24,9 @@ function Navbar() {
       }
     };
 
-    // Run once to set initial state
     onScroll();
-
-    // Add listener (passive for performance)
     window.addEventListener("scroll", onScroll, { passive: true });
 
-    // Cleanup to prevent memory leaks
     return () => {
       window.removeEventListener("scroll", onScroll);
       element?.classList.remove("sticky");
@@ -58,7 +54,7 @@ function Navbar() {
           <Link href="/" className="navbar-brand">
             <Image
               src="/images/majzik-logo.png"
-              alt="Doutor"
+              alt="Dr. Majzik Ernő"
               width={134}
               height={35}
             />
@@ -136,15 +132,25 @@ function Navbar() {
               <Link href="Tel:+36309405846" className="login-btn">
                 <Image
                   src="/images/icons/benefit2.svg"
-                  alt="user"
+                  alt="phone"
                   width={20}
                   height={20}
                 />
                 <span>+36 30 940 5846</span>
               </Link>
             </div>
+
+            {/* ASZTALI LOGIN KIKOMMENTELVE
             <div className="option-item">
-              <Link href="/contact-us" className="default-btn">
+              <Link href="/login" className="login-btn">
+                <Image src="/images/icons/user.svg" alt="user" width={20} height={20} />
+                <span>Login</span>
+              </Link>
+            </div> 
+            */}
+
+            <div className="option-item">
+              <Link href="/kapcsolat" className="default-btn">
                 <span className="left">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -159,8 +165,7 @@ function Navbar() {
                     />
                   </svg>
                 </span>
-                <strong>Register Now</strong>{" "}
-                <span className="d-none d-xxl-inline">- It&apos;s Free</span>
+                <strong>Kapcsolat</strong>
                 <span className="right">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +197,7 @@ function Navbar() {
           <Offcanvas.Title>
             <Image
               src="/images/majzik-logo.png"
-              alt="Doutor"
+              alt="Dr. Majzik Ernő"
               width={134}
               height={35}
             />
@@ -200,8 +205,9 @@ function Navbar() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="mobile-menu">
-            {/* others-options */}
             <div className="others-option d-flex align-items-center gap-3 mb-3">
+              
+              {/* MOBIL LOGIN KIKOMMENTELVE
               <div className="option-item">
                 <Link
                   href="/login"
@@ -215,9 +221,11 @@ function Navbar() {
                   />
                   <span>Login</span>
                 </Link>
-              </div>
+              </div> 
+              */}
+
               <div className="option-item">
-                <Link href="/register" className="default-btn">
+                <Link href="/kapcsolat" className="default-btn" onClick={handleClose}>
                   <span className="left">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +240,7 @@ function Navbar() {
                       />
                     </svg>
                   </span>
-                  <strong>Register Now</strong>
+                  <strong>Kapcsolat</strong>
                   <span className="right">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -250,7 +258,7 @@ function Navbar() {
                 </Link>
               </div>
             </div>
-            {/* mobile-menu-list */}
+
             <ul className="mobile-menu-list">
               {menus.map((item) => (
                 <li key={item.id} className="nav-item">
