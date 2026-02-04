@@ -21,7 +21,7 @@ const AboutUsContent = () => {
         "With cutting-edge technology, strong data security practices, and a passionate care team, we've helped hundreds of thousands of patients receive treatment quickly, safely, and comfortably.",
       ],
     },
-    {/*statistics: [
+    /* statistics: [
       {
         id: 1,
         numbers: ["4", ".", "2"],
@@ -47,7 +47,7 @@ const AboutUsContent = () => {
         description: "Satisfaction Rate",
       },
     ],
-    */}
+    */
   };
 
   return (
