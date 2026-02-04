@@ -56,12 +56,12 @@ const doctorData: DoctorProfileData = {
   title: "Rendelési helyek: Budapest és Siófok",
   specialty: "Sportsebész specialista",
   reviews: {
-    rating: 4.3,
-    count: 2350,
+    rating: 5,
+    count: 65,
     totalCount: "5,200+",
   },
   experience: "30 év",
-  licenseId: "#NY-678234",
+  licenseId: "",
   note: "40.000+ térd, váll, csípő és boka műtét",
   socialLinks: [
     {
@@ -84,131 +84,45 @@ const doctorData: DoctorProfileData = {
   about: {
     title: "Bemutatkozás",
     paragraphs: [
-      "Sportsebészként célom, hogy segítsek a pácienseknek visszatérni a mozgás öröméhez – legyen szó hobbi- vagy élsportolókól. A modern sebészeti technikák és személyre szabott rehabilitáció révén hatékonyan kezelem a térd, váll, boka és más mozgásszervi sérüléseket, biztosítva a gyors és tartós felépülést. Több ezer műtéttel a hátam mögött széleskörű tapasztalattal rendelkezem és betegek ezreinek segítettem pályafutásom során.",
+      "Sportsebészként célom, hogy segítsek a pácienseknek visszatérni a mozgás öröméhez – legyen szó hobbi- vagy élsportolóról. A modern sebészeti technikák és személyre szabott rehabilitáció révén hatékonyan kezelem a térd, váll, boka és más mozgásszervi sérüléseket, biztosítva a gyors és tartós felépülést. Több ezer műtéttel a hátam mögött széleskörű tapasztalattal rendelkezem és betegek ezreinek segítettem pályafutásom során.",
       "Célom nem csupán a fájdalom megszüntetése, hanem a mielőbbi visszatérés az aktív, fájdalommentes élethez.",
       "Szakterületeim a boka-, térd- és vállsérülések gyógyítása.",
     ],
   },
   services: {
-    included: [
-      "Diagnosis & treatment of common illnesses",
-      "Prescription refills for ongoing medications",
-      "Cold, flu, allergies, and sinus infections",
-      "Mental health consultations (non-emergency)",
-      "Video visits & follow-ups",
-      "Lab test reviews & second opinions",
-      "Pediatric care for minor issues",
-      "Post-consultation messaging (within 48 hrs)",
-    ],
-    excluded: [
-      "Emergency conditions (chest pain, trauma, etc.)",
-      "Physical exams or blood draws",
-      "X-rays, imaging, or scans",
-      "Surgical evaluations or procedures",
-      "Disability, insurance, or employment clearance forms",
-      "Ambulance dispatch or emergency triage",
-      "Specialized diagnostics requiring physical equipment",
-    ],
+    included: [],
+    excluded: [],
   },
   experienceDetails: {
-    yearsOfPractice: "25+ years in Internal Medicine",
-    previousInstitutions: [
-      "General Physician at Cedarview Medical Group, New York (2015-2024)",
-      "Resident Doctor at Mount Sinai Hospital, NYC (2011-2015)",
-    ],
-    specialClinicalFocus: [
-      "Chronic Disease Management (Diabetes, Hypertension, Asthma)",
-      "Women's Health & Preventive Care",
-      "Virtual Health Counseling",
-    ],
-    languagesSpoken: ["English", "Spanish", "French", "German", "Arabic"],
+    yearsOfPractice: "30 év",
+    previousInstitutions: [],
+    specialClinicalFocus: [],
+    languagesSpoken: ["Magyar", "Angol"],
   },
-  reviewsList: [
-    {
-      name: "Emily Carter",
-      initial: "E",
-      rating: 5,
-      comment:
-        "I had flu symptoms and needed quick care. The doctor listened patiently and sent my prescription right away. So much easier than a clinic visit!",
-    },
-    {
-      name: "James Hamilton",
-      initial: "J",
-      rating: 5,
-      comment:
-        "Doutor matched me with a therapist within hours. I feel heard, and it's incredibly convenient to talk from home.",
-    },
-    {
-      name: "Sophia Müller",
-      initial: "S",
-      rating: 5,
-      comment:
-        "I wasn't sure about online consultations at first, but the experience felt just as personal and professional as in-person care.",
-    },
-    {
-      name: "David Nguyen",
-      initial: "D",
-      rating: 5,
-      comment:
-        "I take asthma meds regularly, and getting refills through Doutor saves me so much time. Highly recommend it.",
-    },
-    {
-      name: "Amanda Brown",
-      initial: "A",
-      rating: 5,
-      comment:
-        "My 4-year-old had a rash and the virtual pediatrician walked us through everything. Reassuring and quick.",
-    },
-    {
-      name: "Lucas Dupont",
-      initial: "L",
-      rating: 5,
-      comment:
-        "I don't have health coverage and I was worried, but Doutor pricing is clear and very reasonable. Great service!",
-    },
-    {
-      name: "Fatima Khan",
-      initial: "F",
-      rating: 5,
-      comment:
-        "I booked an appointment during my lunch break. The whole process was seamless. Doutor nailed it.",
-    },
-    {
-      name: "Jacob Stein",
-      initial: "J",
-      rating: 5,
-      comment:
-        "I had follow-up questions after my consult, and the doctor responded via chat in minutes. Amazing support!",
-    },
-  ],
+  reviewsList: [],
 };
 
 const DoctorProfileContent = () => {
-  // Beállítjuk az 1-est alapértelmezettnek (Bemutatkozás)
+  // Alapértelmezettként a Bemutatkozás (1) legyen nyitva
   const [activeTab, setActiveTab] = useState(1);
   const handleTabClick = (index: number) => {
     setActiveTab(index);
   };
 
-  // Function to render star ratings
   const renderStars = (rating: number) => {
     const stars = [];
     const fullStars = Math.floor(rating);
     const hasHalfStar = rating % 1 !== 0;
-
     for (let i = 0; i < fullStars; i++) {
       stars.push(<i key={`full-${i}`} className="ri-star-fill"></i>);
     }
-
     if (hasHalfStar) {
       stars.push(<i key="half" className="ri-star-half-fill"></i>);
     }
-
     const emptyStars = 5 - stars.length;
     for (let i = 0; i < emptyStars; i++) {
       stars.push(<i key={`empty-${i}`} className="ri-star-line"></i>);
     }
-
     return stars;
   };
 
@@ -244,6 +158,7 @@ const DoctorProfileContent = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-9 col-md-12">
               <div className="doctor-profile-desc">
                 <div className="profile-content">
@@ -253,78 +168,37 @@ const DoctorProfileContent = () => {
                   <div className="info">
                     <ul className="left">
                       <li>
-                        <span className="mid">Reviews</span>
+                        <span className="mid">Értékelés</span>
                         <div className="rating-info">
                           <div className="list">
                             {renderStars(doctorData.reviews.rating)}
                           </div>
                           <b>{doctorData.reviews.rating}</b>
-                          <span className="review">
-                            ({doctorData.reviews.count})
-                          </span>
                         </div>
                       </li>
                       <li>
-                        <span className="mid">Experience</span>
-                        <strong className="semi">
-                          {doctorData.experience}
-                        </strong>
-                      </li>
-                      <li>
-                        <span className="mid">License ID</span>
-                        <strong className="semi">{doctorData.licenseId}</strong>
+                        <span className="mid">Tapasztalat</span>
+                        <strong className="semi">{doctorData.experience}</strong>
                       </li>
                     </ul>
                     <div className="right-btn">
                       <Link href="/book-an-appointment" className="default-btn">
-                        <span className="left">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="19"
-                            height="19"
-                            viewBox="0 0 19 19"
-                            fill="none"
-                          >
-                            <path
-                              d="M17.8077 0.98584H1.19231C0.810154 0.98584 0.5 1.29599 0.5 1.67815C0.5 2.0603 0.810154 2.37046 1.19231 2.37046H16.1361L0.702846 17.8041C0.4325 18.0744 0.4325 18.5126 0.702846 18.783C0.838192 18.9183 1.01508 18.9858 1.19231 18.9858C1.36954 18.9858 1.54677 18.9183 1.68177 18.783L17.1154 3.34938V18.2935C17.1154 18.6757 17.4255 18.9858 17.8077 18.9858C18.1898 18.9858 18.5 18.6757 18.5 18.2935V1.67815C18.5 1.29599 18.1898 0.98584 17.8077 0.98584Z"
-                              fill="white"
-                            />
-                          </svg>
-                        </span>
                         Időpontfoglalás
-                        <span className="right">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="19"
-                            height="19"
-                            viewBox="0 0 19 19"
-                            fill="none"
-                          >
-                            <path
-                              d="M17.8077 0.98584H1.19231C0.810154 0.98584 0.5 1.29599 0.5 1.67815C0.5 2.0603 0.810154 2.37046 1.19231 2.37046H16.1361L0.702846 17.8041C0.4325 18.0744 0.4325 18.5126 0.702846 18.783C0.838192 18.9183 1.01508 18.9858 1.19231 18.9858C1.36954 18.9858 1.54677 18.9183 1.68177 18.783L17.1154 3.34938V18.2935C17.1154 18.6757 17.4255 18.9858 17.8077 18.9858C18.1898 18.9858 18.5 18.6757 18.5 18.2935V1.67815C18.5 1.29599 18.1898 0.98584 17.8077 0.98584Z"
-                              fill="white"
-                            />
-                          </svg>
-                        </span>
                       </Link>
                     </div>
                   </div>
                   <div className="note">
-                    <p>
-                      <span>Note:</span> {doctorData.note}
-                    </p>
+                    <p><span>Megjegyzés:</span> {doctorData.note}</p>
                   </div>
                 </div>
+
                 <div className="profile-tabs">
                   <ul className="nav nav-tabs" id="myTab" role="tablist">
-                    {/* A 0-ás és 2-es szakmai pályafutást eltávolítottuk a gombok közül is */}
                     <li className="nav-item">
                       <button
                         type="button"
                         onClick={() => handleTabClick(1)}
-                        className={`nav-link ${
-                          activeTab === 1 ? "active" : ""
-                        }`}
+                        className={`nav-link ${activeTab === 1 ? "active" : ""}`}
                       >
                         Bemutatkozás
                       </button>
@@ -332,32 +206,48 @@ const DoctorProfileContent = () => {
                     <li className="nav-item">
                       <button
                         type="button"
+                        onClick={() => handleTabClick(2)}
+                        className={`nav-link ${activeTab === 2 ? "active" : ""}`}
+                      >
+                        Szakmai pályafutás
+                      </button>
+                    </li>
+                    <li className="nav-item">
+                      <button
+                        type="button"
                         onClick={() => handleTabClick(3)}
-                        className={`nav-link ${
-                          activeTab === 3 ? "active" : ""
-                        }`}
+                        className={`nav-link ${activeTab === 3 ? "active" : ""}`}
                       >
                         Hitvallás
                       </button>
                     </li>
                   </ul>
+
                   <div className="tab-content">
-                    {/* Csak azokat a tarrtalmakat tartjuk meg, amik kellenek */}
+                    {/* BEMUTATKOZÁS */}
                     {activeTab === 1 && (
                       <div className="about-tab-content pt-4">
-                         <h4>{doctorData.about.title}</h4>
-                         {doctorData.about.paragraphs.map(
-                           (paragraph, index) => (
-                             <p key={index}>{paragraph}</p>
-                           )
-                         )}
+                        <h4>{doctorData.about.title}</h4>
+                        {doctorData.about.paragraphs.map((p, i) => (
+                          <p key={i}>{p}</p>
+                        ))}
                       </div>
                     )}
-                    
+
+                    {/* SZAKMAI PÁLYAFUTÁS */}
+                    {activeTab === 2 && (
+                      <div className="experience-content pt-4">
+                        <h4>Szakmai pályafutás</h4>
+                        <p>
+                          1995-ben végeztem a SOTE Általános Orvostudományi Karán, majd 2000-ben Traumatológiai szakvizsgát tettem. 19 évig dolgoztam a Székesfehérvári Kórház Traumatológiáján és Sportsebészetén, ahonnan 2016-ban kerültem át a Siófoki Kórházhoz, ahol a Baleseti sebészeti Osztály vezetője lettem, valamint létrehoztam a Sportsebészeti részleget. 2021 januárjától új kihívások elé néztem és orvosigazgatóként kezdtem el vezetni a Budaörsi Egészségcentrumot. Svájcban, Ausztriában és Németországban több tanulmányúton vettem részt elsősorban a Sporttraumatológia tárgykörében. Sportsebészként számos kézilabda, futball, valamint kosárlabdaklubbal szerződtem. Többek között a Magyar Jégkorong válogatott orvosa vagyok 2003 óta.
+                      </div>
+                    )}
+
+                    {/* HITVALLÁS */}
                     {activeTab === 3 && (
                       <div className="about-tab-content pt-4">
                         <h4>Hitvallás</h4>
-                        <p>Ide írhatja Dr. Majzik Ernő hitvallását...</p>
+                        <p>Sporttraumatológusnak vallom magam. Kihívás számomra, hogy mindenki úgy épüljön fel sérüléseiből, hogy visszatérhessen a sport világába legyen az profi vagy amatőr sportoló. Ami a mai orvoslásban elérhető, azoknak a lehetőségeknek a tárházát alkalmazom a gyógyítás során. Tapasztalataim alapján igen jó százalékkal megállapítom a sérüléseket, de szívesen használok a kornak megfelelő diagnosztikai lehetőségeket, mint MRI, RTG vagy Ultrahang hiszen ezekkel a lehetőségekkel egy teljes körű képet tudunk kapni a sérülésről, a fájdalom kiindulási helyéről.</p>
                       </div>
                     )}
                   </div>
