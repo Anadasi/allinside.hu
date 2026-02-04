@@ -143,7 +143,7 @@ const DoctorProfileContent = () => {
                       </li>
                     </ul>
                     <div className="right-btn">
-                      <Link href="/book-an-appointment" className="default-btn">Időpontfoglalás</Link>
+                      <Link href="/kapcsolat" className="default-btn">Időpontfoglalás</Link>
                     </div>
                   </div>
                   <div className="note">
