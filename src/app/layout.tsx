@@ -19,9 +19,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Doutor - Telemedicine & Telehealth Services React Next.js Template",
+  title: "Dr. Majzik Ernő, sportsebész specialista",
   description:
-    "A modern Next.js template for telemedicine, telehealth and healthcare services.",
+    "All-inside keresztszalag műtét: kevesebb fájdalom, gyorsabb gyógyulás",
 };
 
 export default function RootLayout({
