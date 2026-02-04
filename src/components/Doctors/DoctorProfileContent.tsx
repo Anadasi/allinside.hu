@@ -477,7 +477,6 @@ const DoctorProfileContent = () => {
                           </div>
  
                       </div>
-                    )}
                     {activeTab === 3 && (
                       <div>
                         <div className="about-tab-content">
