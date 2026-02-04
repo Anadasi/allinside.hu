@@ -92,7 +92,7 @@ const AboutUsContent = () => {
             </div>
           </div>
 
-          <div className="about-fun-inner">
+          {/*<div className="about-fun-inner">
             <div
               className="d-lg-flex d-md-flex justify-content-between"
               style={{ gap: "20px" }}
@@ -119,6 +119,7 @@ const AboutUsContent = () => {
                 */}
             </div>
           </div>
+          */}
         </div>
       </div>
     </>
