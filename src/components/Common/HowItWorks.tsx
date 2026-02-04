@@ -49,18 +49,16 @@ const HowItWorks = () => {
             <div className="row justify-content-center align-items-center g-4">
               <div className="col-lg-7 col-md-12">
                 <div className="left">
-                  <span className="sub">How It Works</span>
+                  <span className="sub">Mire számíthat?</span>
                   <h2>
-                    How Doutor Works—Signup to Consultation in Just Minutes
+                    Az időpontkéréstől a rehabilitációig
                   </h2>
                 </div>
               </div>
               <div className="col-lg-5 col-md-12">
                 <div className="right">
                   <p>
-                    Skip the waiting room and take control of your health in
-                    three simple steps. With Doutor, getting expert care is
-                    fast, secure, and effortless
+                    A keresztszalag-műtét egy folyamat, nem csak egy nap az életéből. Megmutatjuk, mi történik az első jelentkezéstől a teljes felépülésig, hogy magabiztosan és felkészülten vághasson bele.
                   </p>
                 </div>
               </div>

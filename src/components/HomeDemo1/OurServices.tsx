@@ -100,7 +100,7 @@ function OurServices() {
           </div>
 
           <div className="row justify-content-center g-4">
-            {servicesData.map((service: any) => ( 
+            {servicesData.map((service: any, index: number) => (
               <div key={index} className="col-xl-3 col-md-6">
                 <div className="service-card">
                   <div className="top">
