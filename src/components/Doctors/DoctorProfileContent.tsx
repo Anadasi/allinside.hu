@@ -55,8 +55,8 @@ const doctorData: DoctorProfileData = {
   title: "Rendelési helyek: Budapest és Siófok",
   specialty: "Sportsebész specialista",
   reviews: {
-    rating: 4.3,
-    count: 2350,
+    rating: 5,
+    count: 65,
     totalCount: "5,200+",
   },
   experience: "30 év",
