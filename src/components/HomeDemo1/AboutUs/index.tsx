@@ -26,32 +26,8 @@ const AboutUs = () => {
         href: "/kapcsolat",
       },
     },
-    statistics: [
-      {
-        id: 1,
-        numbers: ["4", ".", "2"],
-        suffix: "M+",
-        description: "Consultations Completed",
-      },
-      {
-        id: 2,
-        numbers: ["5"],
-        suffix: "Minutes",
-        description: "Avg. Wait Time",
-      },
-      {
-        id: 3,
-        numbers: ["10"],
-        suffix: "M+",
-        description: "App Downloads",
-      },
-      {
-        id: 4,
-        numbers: ["99"],
-        suffix: "%",
-        description: "Satisfaction Rate",
-      },
-    ],
+// A statisztikákat üresre állítjuk, hogy ne legyen hiba
+    statistics: [],
   };
 
   return (
@@ -111,32 +87,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="about-fun-inner">
-            <div
-              className="d-lg-flex d-md-flex justify-content-between"
-              style={{ gap: "20px" }}
-            >
-              {aboutData.statistics.map((stat, index) => (
-                <div key={index} className="custom-grid">
-                  <div className="fun">
-                    <div className="d-flex align-items-center">
-                      {stat.numbers.map((num, numIndex) => (
-                        <React.Fragment key={numIndex}>
-                          {numIndex === 0 && num === "." ? (
-                            <h3 className="sub">.</h3>
-                          ) : (
-                            <h3 className="counter">{num}</h3>
-                          )}
-                        </React.Fragment>
-                      ))}
-                      <h3 className="sub">{stat.suffix}</h3>
-                    </div>
-                    <span>{stat.description}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          {/* A statisztikai sávot töröltük, így nem jelenik meg semmi a kép alatt */}
         </div>
       </div>
     </>
