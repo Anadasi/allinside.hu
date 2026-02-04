@@ -8,43 +8,39 @@ function OurServices() {
     {
       id: 1,
       icon: "/images/icons/service1.svg",
-      title: "General Care",
+      title: "Graft típusa",
       description:
-        "Consult with doctors for non-emergency medical conditions—fast and stress-free.",
+        "Jellemzően quadruplált semitendinosus ín, amely önmagában is megfelelő hosszúságú és szilárdságú.",
       features: ["Colds", "Flu", "Allergies", "Infections"],
-      link: "/services/details",
     },
     {
       id: 2,
       icon: "/images/icons/service2.svg",
-      title: "Mental Health",
+      title: "Rögzítés",
       description:
-        "Your emotional well-being matters—get the support you need privately and securely.",
+        "Mindkét oldalon felfüggesztéses (suspensiós) rögzítés történik (pl. TightRope rendszerrel).",
       features: [
         "Therapy Sessions",
         "Anxiety",
         "Depression",
         "Stress Management",
       ],
-      link: "/services/details",
     },
     {
       id: 3,
       icon: "/images/icons/service3.svg",
-      title: "Skin Health",
+      title: "Fúrási technika",
       description:
-        "Receive expert advice and prescriptions without waiting weeks for an in-person visit.",
+        "Retrográd fúrók segítségével történik a „socket” kialakítása (pl. FlipCutter).",
       features: ["Acne", "Eczema", "Skin Rashes", "Prescriptions"],
-      link: "/services/details",
     },
     {
       id: 4,
       icon: "/images/icons/service4.svg",
-      title: "Child Care",
+      title: "Műtéti idő",
       description:
-        "We care for your little ones with trusted doctors and family-friendly support.",
+        "Tapasztalt kezekben rövidebb, mint a hagyományos technikáé.",
       features: ["Fevers", "Coughs & Colds", "Rashes", "Development Concerns"],
-      link: "/services/details",
     },
     {
       id: 5,
@@ -58,7 +54,6 @@ function OurServices() {
         "Asthma Inhalers",
         "Allergy Medications",
       ],
-      link: "/services/details",
     },
     {
       id: 6,
@@ -67,7 +62,6 @@ function OurServices() {
       description:
         "Manage long-term conditions with routine virtual check-ins and follow-ups.",
       features: ["Diabetes", "Hypertension", "Asthma", "Thyroid Disorders"],
-      link: "/services/details",
     },
   ];
 
