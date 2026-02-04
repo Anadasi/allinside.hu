@@ -125,7 +125,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label>Message</label>
+                    <label>Üzenet</label>
                     <textarea
                       name="text"
                       cols={30}
