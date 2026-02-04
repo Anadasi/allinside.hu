@@ -97,7 +97,7 @@ const AboutUsContent = () => {
               className="d-lg-flex d-md-flex justify-content-between"
               style={{ gap: "20px" }}
             >
-              {aboutData.statistics.map((stat, index) => (
+             {/* {aboutData.statistics.map((stat, index) => (
                 <div key={index} className="custom-grid">
                   <div className="fun">
                     <div className="d-flex align-items-center">
@@ -116,6 +116,7 @@ const AboutUsContent = () => {
                   </div>
                 </div>
               ))}
+                */}
             </div>
           </div>
         </div>
