@@ -34,7 +34,7 @@ function OurServices() {
       title: "Műtéti idő",
       description:
         "Tapasztalt kezekben rövidebb, mint a hagyományos technikáé.",
-      features: ["Gyorsabb lefolyás", "Kevesebb altatási idő", "Hatékonyabb rehabilitáció"],
+      features: ["Gyorsabb lefolyás", "Kevesebb fájdalom a műtét után", "Rövidebb rehabilitáció"],
     },
   ];
 
