@@ -39,13 +39,4 @@ dropdownItems: [
     { title: "PRP Kezelések", href: "https://www.drmajzikerno.hu/szolgaltatasok/prp-kezelesek/" },
   ],
 },
-  {
-    id: "contact",
-    title: "Kapcsolat",
-    href: "/kapcsolat",
-    isDropdown: false,
-dropdownItems: [
-    { title: "", href: "" } 
-  ],
-  },
 ];
