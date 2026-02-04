@@ -28,7 +28,7 @@ const HowItWorks = () => {
       id: 2,
       icon: "/images/icons/work2.svg",
       title: "A műtét menete",
-      description: "A műtétet artroszkópos módszerrel végezzük, amely minimálisan invazív, azaz kisebb bemetszéssel jár. A sebész a térdízületbe kis kamerát (artroszkópot) és speciális műszereket vezet be, hogy lássa a sérülést, és a beavatkozást pontosan végezze el.",
+      description: "A műtétet artroszkópos módszerrel végezzük, amely minimálisan invazív, azaz kisebb bemetszéssel jár. A sebész a térdízületbe kis kamerát (artroszkópot) és speciális műszereket vezet be, hogy lássa a sérülést, és a beavatkozást pontosan végezze el. a műtét során az új szalagot az ízületen belül rögzítjük. Az eszközöket és varratokat úgy helyezzük el, hogy minden kezelés az ízületen belül történjen.",
       vectorImage: "/images/vector2.png",
       vectorWidth: 30,
       vectorHeight: 91,
@@ -37,7 +37,7 @@ const HowItWorks = () => {
       id: 3,
       icon: "/images/icons/work3.svg",
       title: "Rehabilitáció",
-      description: "Az All-inside műtét után a rehabilitáció hasonlóan zajlik, mint más keresztszalag műtét esetén, célja a térd stabilizálása, az izomerő visszaállítása, valamint a mozgástartomány fokozatos visszanyerése. Ez az eljárás elsősorban azoknak ajánlott, akik elülső keresztszalag szakadás miatt szenvednek és akiknek a sérülései olyan mértékűek, hogy az artroszkópos műtét megfelelő megoldást kínál.",
+      description: "Mivel kisebb bemetszéssel jár, az All-inside technika kevesebb fájdalmat és gyorsabb gyógyulást eredményez. A műtét után kisebb hegek maradnak és a szövődmények kockázata is csökkenhet (például fertőzések vagy a sebgyógyulási problémák). Az All-inside műtét után a rehabilitáció hasonlóan zajlik, mint más keresztszalag műtét esetén, célja a térd stabilizálása, az izomerő visszaállítása, valamint a mozgástartomány fokozatos visszanyerése.",
     },
   ];
 
@@ -85,8 +85,8 @@ const HowItWorks = () => {
                       <Image
                         src={step.icon}
                         alt={`${step.title} icon`}
-                        width={44}
-                        height={44}
+                        width={80}
+                        height={80}
                       />
                     </div>
                     <div className="content">
