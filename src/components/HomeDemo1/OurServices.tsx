@@ -113,7 +113,7 @@ function OurServices() {
                       />
                     </div>
                     <h3>
-                      <Link href={service.link}>{service.title}</Link>
+                      <Link href="#">{service.title}</Link>
                     </h3>
                     <p>{service.description}</p>
                   </div>
