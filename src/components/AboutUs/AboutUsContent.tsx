@@ -92,12 +92,16 @@ const AboutUsContent = () => {
             </div>
           </div>
 
-          {/*<div className="about-fun-inner">
+         </div>
+          </div>
+
+          {/* A statisztikai rész teljesen eltávolítva/elrejtve */}
+          {/* <div className="about-fun-inner">
             <div
               className="d-lg-flex d-md-flex justify-content-between"
               style={{ gap: "20px" }}
             >
-             {/* {aboutData.statistics.map((stat, index) => (
+              {aboutData.statistics && aboutData.statistics.map((stat, index) => (
                 <div key={index} className="custom-grid">
                   <div className="fun">
                     <div className="d-flex align-items-center">
@@ -116,11 +120,11 @@ const AboutUsContent = () => {
                   </div>
                 </div>
               ))}
-                */}
             </div>
           </div>
           */}
-        </div>
+
+        </div> 
       </div>
     </>
   );
