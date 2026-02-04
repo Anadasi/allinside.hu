@@ -73,54 +73,53 @@ const ContactForm = () => {
             <div className="col-lg-6 col-md-12">
               <div className="contact-us-form">
                 <div className="content">
-                  <h2>Get In Touch</h2>
+                  <h2>Bejelentkezés</h2>
                   <p>
-                    Have a question or need assistance? Send us a message and
-                    our support team will respond as soon as possible.
+                    Kérjük vegye fel velünk a kapcsolatot és visszahívjuk időpontegyeztetés céljából.
                   </p>
                 </div>
 
                 <form action={handleContact}>
                   <div className="form-group">
-                    <label>Full Name</label>
+                    <label>Név</label>
                     <input
                       type="text"
                       name="name"
                       className="form-control"
-                      placeholder="e.g. Emily Carter"
+                      placeholder=""
                       required
                       />
                   </div>
 
                   <div className="form-group">
-                    <label>Email Address</label>
+                    <label>Email cím</label>
                     <input
                       type="email"
                       name="email"
                       className="form-control"
-                      placeholder="e.g. emily@support.com"
+                      placeholder=""
                       required
                       />
                   </div>
 
                   <div className="form-group">
-                    <label>Subject</label>
+                    <label>Tárgy</label>
                     <input
                       type="text"
                       name="subject"
                       className="form-control"
-                      placeholder="e.g. Enter your subject"
+                      placeholder=""
                       required
                       />
                   </div>
 
                   <div className="form-group">
-                    <label>Phone Number</label>
+                    <label>Telefonszám</label>
                     <input
                       type="text"
                       name="number"
                       className="form-control"
-                      placeholder="e.g. 1-202-555-0147"
+                      placeholder="formátum: +36300000000"
                       required
                       />
                   </div>
@@ -132,7 +131,7 @@ const ContactForm = () => {
                       cols={30}
                       rows={6}
                       className="form-control"
-                      placeholder="e.g. I have a question about..."
+                      placeholder=""
                       required
                     ></textarea>
                   </div>
@@ -150,8 +149,8 @@ const ContactForm = () => {
                         className="form-check-label"
                         htmlFor="checkDefault"
                       >
-                        I confirm that I have read and agree to the{" "}
-                        <Link href="/privacy-policy">Privacy Policy.</Link>
+                        Elolvastam az {" "}
+                        <Link href="/adatkezeles">Adatkezelési tájékoztatót.</Link>
                       </label>
                     </div>
                   </div>
@@ -171,7 +170,7 @@ const ContactForm = () => {
                         />
                       </svg>
                     </span>
-                    Submit Now
+                    Küldés
                     <span className="right">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
