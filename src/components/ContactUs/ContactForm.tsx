@@ -30,7 +30,7 @@ const ContactForm = () => {
                   backgroundImage: "url(/images/contact.jpg)",
                 }}
               >
-                <div className="wrap-content">
+                {/*<div className="wrap-content">
                   <div className="left">
                     <div className="icon">
                       <Image
@@ -40,7 +40,7 @@ const ContactForm = () => {
                         height={63}
                       />
                     </div>
-                    <div className="title">
+                 <div className="title">
                       <h3>Prefer to Chat Live?</h3>
                       <p>
                         Our support team is available 24/7 to assist you in
@@ -66,6 +66,7 @@ const ContactForm = () => {
                     </Link>
                   </div>
                 </div>
+                 */}
               </div>
             </div>
 
