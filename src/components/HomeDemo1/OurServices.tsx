@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 function OurServices() {
-  // Dynamic data for services
   const servicesData = [
     {
       id: 1,
@@ -11,7 +10,7 @@ function OurServices() {
       title: "Graft típusa",
       description:
         "Jellemzően quadruplált semitendinosus ín, amely önmagában is megfelelő hosszúságú és szilárdságú.",
-      features: ["Colds", "Flu", "Allergies", "Infections"],
+      features: ["Megfelelő hosszúság", "Nagy szilárdság", "Gyorsabb beépülés"],
     },
     {
       id: 2,
@@ -19,12 +18,7 @@ function OurServices() {
       title: "Rögzítés",
       description:
         "Mindkét oldalon felfüggesztéses (suspensiós) rögzítés történik (pl. TightRope rendszerrel).",
-      features: [
-        "Therapy Sessions",
-        "Anxiety",
-        "Depression",
-        "Stress Management",
-      ],
+      features: ["TightRope technológia", "Stabil rögzítés", "Csavarmentes megoldás"],
     },
     {
       id: 3,
@@ -32,7 +26,7 @@ function OurServices() {
       title: "Fúrási technika",
       description:
         "Retrográd fúrók segítségével történik a „socket” kialakítása (pl. FlipCutter).",
-      features: ["Acne", "Eczema", "Skin Rashes", "Prescriptions"],
+      features: ["FlipCutter fúró", "Minimális csontveszteség", "Precíz kialakítás"],
     },
     {
       id: 4,
@@ -40,42 +34,9 @@ function OurServices() {
       title: "Műtéti idő",
       description:
         "Tapasztalt kezekben rövidebb, mint a hagyományos technikáé.",
-      features: ["Fevers", "Coughs & Colds", "Rashes", "Development Concerns"],
-    },
-    {
-      id: 5,
-      icon: "/images/icons/service5.svg",
-      title: "Rx Refills",
-      description:
-        "Stay consistent with treatment—no need to revisit the clinic every time.",
-      features: [
-        "Blood Pressure Meds",
-        "Diabetes Meds",
-        "Asthma Inhalers",
-        "Allergy Medications",
-      ],
-    },
-    {
-      id: 6,
-      icon: "/images/icons/service6.svg",
-      title: "Chronic Care",
-      description:
-        "Manage long-term conditions with routine virtual check-ins and follow-ups.",
-      features: ["Diabetes", "Hypertension", "Asthma", "Thyroid Disorders"],
+      features: ["Gyorsabb lefolyás", "Kevesebb altatási idő", "Hatékonyabb rehabilitáció"],
     },
   ];
-
-  // Dynamic data for the large image section
-  const largeImageData = {
-    backgroundImage: "/images/all-inside.jpg",
-    layerImage: "/images/services/layer.svg",
-    description: "Explore even more ways we can support your health",
-    link: {
-      href: "/services",
-      text: "View More Services",
-    },
-    shapeImage: "/images/services/shape.png",
-  };
 
   return (
     <>
@@ -92,7 +53,7 @@ function OurServices() {
               <div className="col-lg-5 col-md-12">
                 <div className="right">
                   <p>
-                   Az All-inside óriási előnye, hogy a csontban a furat hossza pontosan akkora, amekkora helyre a beültetett graftnak szüksége van. Másik előnye, hogy intraossealisan (a csont belsejében) nincs rögzítő elem (pl.: csavar), ezáltal az ín beépülése körkörösen lehetséges. All-inside technikánál semitendinosus és quadriceps inat is fel tudunk használni. A quadriceps ín felhasználása Észak- Amerikában és Nyugat-Európában is egyre jobban terjed a felmérések szerinti legjobb beépülése miatt.
+                    Az All-inside óriási előnye, hogy a csontban a furat hossza pontosan akkora, amekkora helyre a beültetett graftnak szüksége van. Másik előnye, hogy a csont belsejében nincs rögzítő elem (pl.: csavar), ezáltal az ín beépülése körkörösen lehetséges.
                   </p>
                 </div>
               </div>
@@ -112,101 +73,22 @@ function OurServices() {
                         height={60}
                       />
                     </div>
-                    <h3>
-                      <Link href="#">{service.title}</Link>
-                    </h3>
+                    <h3>{service.title}</h3>
                     <p>{service.description}</p>
                   </div>
                   <div className="bottom">
                     <ul className="list">
-                      {service.features.map((feature: any, featureIndex: number) => (
-                        <li key={featureIndex}>
+                      {service.features.map((feature: any, fIdx: number) => (
+                        <li key={fIdx}>
                           <i className="ri-check-line"></i>
                           <span>{feature}</span>
                         </li>
                       ))}
                     </ul>
-                    <div className="service-btn">
-                      <Link href={service.link} className="default-btn">
-                        <span className="left">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="12"
-                            height="12"
-                            viewBox="0 0 12 12"
-                            fill="none"
-                          >
-                            <path
-                              d="M11.5385 0H0.461538C0.206769 0 0 0.206769 0 0.461538C0 0.716308 0.206769 0.923077 0.461538 0.923077H10.4241L0.135231 11.2122C-0.045 11.3924 -0.045 11.6845 0.135231 11.8648C0.225462 11.955 0.343385 12 0.461538 12C0.579692 12 0.697846 11.955 0.787846 11.8648L11.0769 1.57569V11.5385C11.0769 11.7932 11.2837 12 11.5385 12C11.7932 12 12 11.7932 12 11.5385V0.461538C12 0.206769 11.7932 0 11.5385 0Z"
-                              fill="#336AEA"
-                            />
-                          </svg>
-                        </span>
-                        Learn More
-                        <span className="right">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="12"
-                            height="12"
-                            viewBox="0 0 12 12"
-                            fill="none"
-                          >
-                            <path
-                              d="M11.5385 0H0.461538C0.206769 0 0 0.206769 0 0.461538C0 0.716308 0.206769 0.923077 0.461538 0.923077H10.4241L0.135231 11.2122C-0.045 11.3924 -0.045 11.6845 0.135231 11.8648C0.225462 11.955 0.343385 12 0.461538 12C0.579692 12 0.697846 11.955 0.787846 11.8648L11.0769 1.57569V11.5385C11.0769 11.7932 11.2837 12 11.5385 12C11.7932 12 12 11.7932 12 11.5385V0.461538C12 0.206769 11.7932 0 11.5385 0Z"
-                              fill="#336AEA"
-                            />
-                          </svg>
-                        </span>
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </div>
             ))}
-
-            <div className="col-xl-6 col-md-12">
-              <div
-                className="services-large-image"
-                style={{
-                  backgroundImage: `url(${largeImageData.backgroundImage})`,
-                }}
-              >
-                <div className="wrap-content">
-                  <div className="image">
-                    <Image
-                      src={largeImageData.layerImage}
-                      alt="layer"
-                      width={60}
-                      height={67}
-                    />
-                  </div>
-                  <p>{largeImageData.description}</p>
-                  <Link href={largeImageData.link.href} className="link-btn">
-                    {largeImageData.link.text}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="13"
-                      height="14"
-                      viewBox="0 0 13 14"
-                      fill="none"
-                    >
-                      <path
-                        d="M12.5 0.0117188H0.5C0.224 0.0117188 0 0.235719 0 0.511719C0 0.787719 0.224 1.01172 0.5 1.01172H11.2928L0.1465 12.1582C-0.04875 12.3535 -0.04875 12.67 0.1465 12.8652C0.24425 12.963 0.372 13.0117 0.5 13.0117C0.628 13.0117 0.756 12.963 0.8535 12.8652L12 1.71872V12.5117C12 12.7877 12.224 13.0117 12.5 13.0117C12.776 13.0117 13 12.7877 13 12.5117V0.511719C13 0.235719 12.776 0.0117188 12.5 0.0117188Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </Link>
-                  <div className="shape">
-                    <Image
-                      src={largeImageData.shapeImage}
-                      alt="shape"
-                      width={159}
-                      height={135}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
