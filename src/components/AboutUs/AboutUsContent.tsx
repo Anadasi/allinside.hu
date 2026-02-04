@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 
@@ -5,49 +7,22 @@ const AboutUsContent = () => {
   // Dynamic data
   const aboutData = {
     title: {
-      subtitle: "About Us",
-      title: "Transforming Healthcare Through Technology and Compassion",
+      subtitle: "Rólunk",
+      title: "Dr. Majzik Ernő - Modern Ortopédiai Megoldások",
       description:
         "Ez az innovatív eljárás Magyarországon elsőként Majzik doktor nevéhez fűződik, aki 2022 szeptembere óta alkalmazza sikeresen az All-inside keresztszalag-pótlási technikát. Jelenleg ő az egyetlen szakember hazánkban, aki több száz ilyen típusú műtétet végzett el.",
     },
     content: {
       image: {
         src: "/images/about/about.png",
-        alt: "image",
+        alt: "Dr. Majzik Ernő műtét közben",
       },
       paragraphs: [
-        "Doutor was founded with a simple mission: to remove the barriers between patients and the quality care they deserve. In a world where time is limited and access to healthcare isn't always easy, we believe in a smarter, more human way to care for people—digitally.",
+        "Küldetésünk, hogy lebontsuk az akadályokat a páciensek és a megérdemelt minőségi ellátás között. Hiszünk abban, hogy az orvostudomány fejlődése és a technológia ötvözése gyorsabb és fájdalommentesebb gyógyulást tesz lehetővé.",
         "Az All-inside módszer különleges előnye, hogy gyermek- és serdülőkorban is biztonságosan alkalmazható, mivel ez az egyetlen keresztszalag-pótlási technika, amely elvégezhető a növekedési zónák lezárulása előtt, jellemzően 12–18 éves korban.",
-        "With cutting-edge technology, strong data security practices, and a passionate care team, we've helped hundreds of thousands of patients receive treatment quickly, safely, and comfortably.",
+        "A legmodernebb technológiával, szigorú adatbiztonsági protokollokkal és elkötelezett csapattal segítünk pácienseinknek abban, hogy gyorsan, biztonságosan és kényelmesen visszanyerjék mozgásszabadságukat.",
       ],
     },
-    /* statistics: [
-      {
-        id: 1,
-        numbers: ["4", ".", "2"],
-        suffix: "M+",
-        description: "Consultations Completed",
-      },
-      {
-        id: 2,
-        numbers: ["5"],
-        suffix: "Minutes",
-        description: "Avg. Wait Time",
-      },
-      {
-        id: 3,
-        numbers: ["10"],
-        suffix: "M+",
-        description: "App Downloads",
-      },
-      {
-        id: 4,
-        numbers: ["99"],
-        suffix: "%",
-        description: "Satisfaction Rate",
-      },
-    ],
-    */
   };
 
   return (
@@ -92,39 +67,8 @@ const AboutUsContent = () => {
             </div>
           </div>
 
-         </div>
-          </div>
-
-          {/* A statisztikai rész teljesen eltávolítva/elrejtve */}
-          {/* <div className="about-fun-inner">
-            <div
-              className="d-lg-flex d-md-flex justify-content-between"
-              style={{ gap: "20px" }}
-            >
-              {aboutData.statistics && aboutData.statistics.map((stat, index) => (
-                <div key={index} className="custom-grid">
-                  <div className="fun">
-                    <div className="d-flex align-items-center">
-                      {stat.numbers.map((num, numIndex) => (
-                        <React.Fragment key={numIndex}>
-                          {numIndex === 0 && num === "." ? (
-                            <h3 className="sub">.</h3>
-                          ) : (
-                            <h3 className="counter">{num}</h3>
-                          )}
-                        </React.Fragment>
-                      ))}
-                      <h3 className="sub">{stat.suffix}</h3>
-                    </div>
-                    <span>{stat.description}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          */}
-
-        </div> 
+          {/* Statisztikai rész eltávolítva a hibák elkerülése végett */}
+        </div>
       </div>
     </>
   );
