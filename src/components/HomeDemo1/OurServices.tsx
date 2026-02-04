@@ -6,7 +6,7 @@ function OurServices() {
   const servicesData = [
     {
       id: 1,
-      icon: "/images/icons/service1.svg",
+      icon: "/images/icons/service6.svg",
       title: "Graft típusa",
       description:
         "Jellemzően quadruplált semitendinosus ín, amely önmagában is megfelelő hosszúságú és szilárdságú.",
@@ -14,7 +14,7 @@ function OurServices() {
     },
     {
       id: 2,
-      icon: "/images/icons/service2.svg",
+      icon: "/images/icons/benefit3.svg",
       title: "Rögzítés",
       description:
         "Mindkét oldalon felfüggesztéses (suspensiós) rögzítés történik (pl. TightRope rendszerrel).",
@@ -22,7 +22,7 @@ function OurServices() {
     },
     {
       id: 3,
-      icon: "/images/icons/service3.svg",
+      icon: "/images/icons/work2.svg",
       title: "Fúrási technika",
       description:
         "Retrográd fúrók segítségével történik a „socket” kialakítása (pl. FlipCutter).",
@@ -30,7 +30,7 @@ function OurServices() {
     },
     {
       id: 4,
-      icon: "/images/icons/service4.svg",
+      icon: "/images/icons/work3.svg",
       title: "Műtéti idő",
       description:
         "Tapasztalt kezekben rövidebb, mint a hagyományos technikáé.",
