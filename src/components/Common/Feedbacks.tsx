@@ -95,7 +95,7 @@ const Feedbacks = () => {
               </div>
               <div className="col-lg-6 col-md-12">
                 <div className="right wrap2">
-                  <Link href="/feedbacks" className="link-btn">
+                  {/*  <Link href="/feedbacks" className="link-btn">
                     View All Feedbacks
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ const Feedbacks = () => {
                         fill="#336AEA"
                       />
                     </svg>
-                  </Link>
+                  </Link>*/}  
                 </div>
               </div>
             </div>
