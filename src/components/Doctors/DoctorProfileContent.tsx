@@ -316,7 +316,7 @@ const DoctorProfileContent = () => {
                 </div>
                 <div className="profile-tabs">
                   <ul className="nav nav-tabs" id="myTab" role="tablist">
-                    <li className="nav-item">
+                   {/* <li className="nav-item">
                       <button
                         type="button"
                         onClick={() => handleTabClick(0)}
@@ -326,7 +326,7 @@ const DoctorProfileContent = () => {
                       >
                         Szakmai pályafutás
                       </button>
-                    </li>
+                    </li>*/}
                     <li className="nav-item">
                       <button
                         type="button"
