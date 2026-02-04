@@ -69,7 +69,7 @@ const HowItWorks = () => {
             <div className="col-lg-6 col-md-12">
               <div className="work-image">
                 <Image
-                  src="/images/all-inside.jpg"
+                  src="/images/montazs.png"
                   alt="How Doutor works"
                   width={1052}
                   height={1254}
