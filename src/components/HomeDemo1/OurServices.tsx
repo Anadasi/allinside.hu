@@ -119,7 +119,7 @@ function OurServices() {
                   </div>
                   <div className="bottom">
                     <ul className="list">
-                      {service.features.map((feature, featureIndex) => (
+                      {service.features.map((feature: any, featureIndex: number) => (
                         <li key={featureIndex}>
                           <i className="ri-check-line"></i>
                           <span>{feature}</span>
