@@ -84,7 +84,7 @@ const doctorData: DoctorProfileData = {
   about: {
     title: "Bemutatkozás",
     paragraphs: [
-      "Sportsebészként célom, hogy segítsek a pácienseknek visszatérni a mozgás öröméhez – legyen szó hobbi- vagy élsportolóról. A modern sebészeti technikák és személyre szabott rehabilitáció révén hatékonyan kezelem a térd, váll, boka és más mozgásszervi sérüléseket, biztosítva a gyors és tartós felépülést. Több ezer műtéttel a hátam mögött széleskörű tapasztalattal rendelkezem és betegek ezreinek segítettem pályafutásom során.",
+      "Sportsebészként célom, hogy segítsek a pácienseknek visszatérni a mozgás öröméhez – legyen szó hobbi- vagy élsportolókól. A modern sebészeti technikák és személyre szabott rehabilitáció révén hatékonyan kezelem a térd, váll, boka és más mozgásszervi sérüléseket, biztosítva a gyors és tartós felépülést. Több ezer műtéttel a hátam mögött széleskörű tapasztalattal rendelkezem és betegek ezreinek segítettem pályafutásom során.",
       "Célom nem csupán a fájdalom megszüntetése, hanem a mielőbbi visszatérés az aktív, fájdalommentes élethez.",
       "Szakterületeim a boka-, térd- és vállsérülések gyógyítása.",
     ],
@@ -184,7 +184,8 @@ const doctorData: DoctorProfileData = {
 };
 
 const DoctorProfileContent = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  // Beállítjuk az 1-est alapértelmezettnek (Bemutatkozás)
+  const [activeTab, setActiveTab] = useState(1);
   const handleTabClick = (index: number) => {
     setActiveTab(index);
   };
@@ -316,17 +317,7 @@ const DoctorProfileContent = () => {
                 </div>
                 <div className="profile-tabs">
                   <ul className="nav nav-tabs" id="myTab" role="tablist">
-                   {/* <li className="nav-item">
-                      <button
-                        type="button"
-                        onClick={() => handleTabClick(0)}
-                        className={`nav-link ${
-                          activeTab === 0 ? "active" : ""
-                        }`}
-                      >
-                        Szakmai pályafutás
-                      </button>
-                    </li>*/}
+                    {/* A 0-ás és 2-es szakmai pályafutást eltávolítottuk a gombok közül is */}
                     <li className="nav-item">
                       <button
                         type="button"
@@ -336,17 +327,6 @@ const DoctorProfileContent = () => {
                         }`}
                       >
                         Bemutatkozás
-                      </button>
-                    </li>
-                    <li className="nav-item">
-                      <button
-                        type="button"
-                        onClick={() => handleTabClick(2)}
-                        className={`nav-link ${
-                          activeTab === 2 ? "active" : ""
-                        }`}
-                      >
-                        Szakmai pályafutás
                       </button>
                     </li>
                     <li className="nav-item">
@@ -362,131 +342,22 @@ const DoctorProfileContent = () => {
                     </li>
                   </ul>
                   <div className="tab-content">
-                    {activeTab === 0 && (
-                      <div>
-                        <CalendarContent />
-                        <div className="availability-reviews">
-                          <h3>
-                            Vélemények{" "}
-                            <span>
-                              ⭐ <strong>{doctorData.reviews.rating}</strong> (
-                              {doctorData.reviews.totalCount} patient reviews)
-                            </span>
-                          </h3>
-                          <div className="row justify-content-center g-4">
-                            {doctorData.reviewsList.map((review, index) => (
-                              <div className="col-lg-6 col-md-6" key={index}>
-                                <div className="review-item">
-                                  <div className="top">
-                                    <div className="title">
-                                      <h2>{review.initial}</h2>
-                                    </div>
-                                    <div className="content">
-                                      <h4>{review.name}</h4>
-                                      <ul className="list">
-                                        {renderStars(review.rating).map(
-                                          (star, i) => (
-                                            <li key={i}>{star}</li>
-                                          )
-                                        )}
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <p>{review.comment}</p>
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    )}
+                    {/* Csak azokat a tarrtalmakat tartjuk meg, amik kellenek */}
                     {activeTab === 1 && (
-                      <div>
-                        <div className="services-content">
-                          <div className="top">
-                            <h3>What&apos;s Included in Your Online Visit</h3>
-                            <p>
-                              Explore the services you can access through your
-                              virtual consultation—plus what requires in-person
-                              care.
-                            </p>
-                          </div>
-                          <div className="items">
-                            <div className="item">
-                              <div className="title">
-                                <h4>✅ Included Services</h4>
-                                <p>
-                                  These are covered in most standard Doutor
-                                  virtual consultations:
-                                </p>
-                              </div>
-                              <ul>
-                                {doctorData.services.included.map(
-                                  (service, index) => (
-                                    <li key={index}>
-                                      <Image
-                                        src="/images/check.svg"
-                                        alt="check"
-                                        width={16}
-                                        height={12}
-                                      />
-                                      <span>{service}</span>
-                                    </li>
-                                  )
-                                )}
-                              </ul>
-                            </div>
-                            <div className="item">
-                              <div className="title">
-                                <h4>❌ Excluded Services</h4>
-                                <p>
-                                  These services require in-person care or
-                                  emergency attention:
-                                </p>
-                              </div>
-                              <ul>
-                                {doctorData.services.excluded.map(
-                                  (service, index) => (
-                                    <li key={index}>
-                                      <Image
-                                        src="/images/check.svg"
-                                        alt="check"
-                                        width={16}
-                                        height={12}
-                                      />
-                                      <span>{service}</span>
-                                    </li>
-                                  )
-                                )}
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="about-tab-content pt-4">
+                         <h4>{doctorData.about.title}</h4>
+                         {doctorData.about.paragraphs.map(
+                           (paragraph, index) => (
+                             <p key={index}>{paragraph}</p>
+                           )
+                         )}
                       </div>
                     )}
-                    {activeTab === 2 && (
-                      <div>
-                        <div className="experience-content">
-                          <div className="top">
-                            <h3>
-                              Professional Experience & Medical Background
-                            </h3>
-                            <p>
-                              1995-ben végeztem a SOTE Általános Orvostudományi Karán, majd 2000-ben Traumatológiai szakvizsgát tettem. 19 évig dolgoztam a Székesfehérvári Kórház Traumatológiáján és Sportsebészetén, ahonnan 2016-ban kerültem át a Siófoki Kórházhoz, ahol a Baleseti sebészeti Osztály vezetője lettem, valamint létrehoztam a Sportsebészeti részleget. 2021 januárjától új kihívások elé néztem és orvosigazgatóként kezdtem el vezetni a Budaörsi Egészségcentrumot. Svájcban, Ausztriában és Németországban több tanulmányúton vettem részt elsősorban a Sporttraumatológia tárgykörében. Sportsebészként számos kézilabda, futball, valamint kosárlabdaklubbal szerződtem. Többek között a Magyar Jégkorong válogatott orvosa vagyok 2003 óta.
-                            </p>
-                          </div>
- 
-                      </div>
+                    
                     {activeTab === 3 && (
-                      <div>
-                        <div className="about-tab-content">
-                          <h4>{doctorData.about.title}</h4>
-                          {doctorData.about.paragraphs.map(
-                            (paragraph, index) => (
-                              <p key={index}>{paragraph}</p>
-                            )
-                          )}
-                        </div>
+                      <div className="about-tab-content pt-4">
+                        <h4>Hitvallás</h4>
+                        <p>Ide írhatja Dr. Majzik Ernő hitvallását...</p>
                       </div>
                     )}
                   </div>
