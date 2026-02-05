@@ -76,7 +76,7 @@ function HeroBanner() {
                 </p>
 
                 <div className="banner-btn">
-                  <Link href="doctors/profile/" className="default-btn">
+                  <Link href="doctor/bemutatkozas/" className="default-btn">
                     <span className="left">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

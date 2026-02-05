@@ -26,7 +26,7 @@ const AvailableDoctor = () => {
       rating: 5,
       reviews: 66,
       imageUrl: "/images/doctors/doctor1.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
   ];
 

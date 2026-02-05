@@ -27,7 +27,7 @@ const OurDoctors = () => {
       rating: 4.9,
       reviews: 3560,
       imageUrl: "/images/doctors/doctor1.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const OurDoctors = () => {
       rating: 4.8,
       reviews: 2350,
       imageUrl: "/images/doctors/doctor2.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ const OurDoctors = () => {
       rating: 4.7,
       reviews: 1375,
       imageUrl: "/images/doctors/doctor3.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 4,
@@ -60,7 +60,7 @@ const OurDoctors = () => {
       rating: 4.9,
       reviews: 4892,
       imageUrl: "/images/doctors/doctor4.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
   ];
 

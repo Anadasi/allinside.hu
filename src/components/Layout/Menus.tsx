@@ -11,7 +11,7 @@ export const menus = [
   {
     id: "bemutatkozas",
     title: "Bemutatkozás",
-    href:  "/doctors/profile/",
+    href:  "/doctor/bemutatkozas/",
     isDropdown: false,
   dropdownItems: [
     { title: "", href: "" } 

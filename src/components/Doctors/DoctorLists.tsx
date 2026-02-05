@@ -29,7 +29,7 @@ const DoctorLists = () => {
       rating: 4.9,
       reviews: 3560,
       imageUrl: "/images/doctors/doctor5.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ const DoctorLists = () => {
       rating: 4.8,
       reviews: 2350,
       imageUrl: "/images/doctors/doctor6.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 3,
@@ -51,7 +51,7 @@ const DoctorLists = () => {
       rating: 4.7,
       reviews: 1375,
       imageUrl: "/images/doctors/doctor7.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 4,
@@ -62,7 +62,7 @@ const DoctorLists = () => {
       rating: 4.9,
       reviews: 4892,
       imageUrl: "/images/doctors/doctor8.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 5,
@@ -73,7 +73,7 @@ const DoctorLists = () => {
       rating: 4.8,
       reviews: 3210,
       imageUrl: "/images/doctors/doctor1.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 6,
@@ -84,7 +84,7 @@ const DoctorLists = () => {
       rating: 4.7,
       reviews: 2875,
       imageUrl: "/images/doctors/doctor2.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 7,
@@ -95,7 +95,7 @@ const DoctorLists = () => {
       rating: 4.9,
       reviews: 4120,
       imageUrl: "/images/doctors/doctor3.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 8,
@@ -106,7 +106,7 @@ const DoctorLists = () => {
       rating: 4.8,
       reviews: 3680,
       imageUrl: "/images/doctors/doctor4.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 9,
@@ -117,7 +117,7 @@ const DoctorLists = () => {
       rating: 4.9,
       reviews: 4520,
       imageUrl: "/images/doctors/doctor9.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 10,
@@ -128,7 +128,7 @@ const DoctorLists = () => {
       rating: 4.7,
       reviews: 2985,
       imageUrl: "/images/doctors/doctor10.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 11,
@@ -139,7 +139,7 @@ const DoctorLists = () => {
       rating: 4.8,
       reviews: 2760,
       imageUrl: "/images/doctors/doctor11.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
     {
       id: 12,
@@ -150,7 +150,7 @@ const DoctorLists = () => {
       rating: 5.0,
       reviews: 5125,
       imageUrl: "/images/doctors/doctor12.png",
-      profileLink: "/doctors/profile",
+      profileLink: "/doctor/bemutatkozas",
     },
   ];
 
