@@ -19,7 +19,9 @@ export default function Home() {
 
       <HeroBanner />
 
-      <div id="roviden"></div><Benefits /></div>
+<div id="roviden">
+  <Benefits />
+</div>
 
       <AboutUs />
 
