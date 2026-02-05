@@ -182,7 +182,9 @@ const DoctorProfileContent = () => {
                       <div className="experience-content pt-4">
                         <h4>Szakmai pályafutás</h4>
                         <p>
-                        1995-ben végeztem a SOTE Általános Orvostudományi Karán, majd 2000-ben Traumatológiai szakvizsgát tettem. 19 évig dolgoztam a Székesfehérvári Kórház Traumatológiáján és Sportsebészetén, ahonnan 2016-ban kerültem át a Siófoki Kórházhoz, ahol a Baleseti sebészeti Osztály vezetője lettem, valamint létrehoztam a Sportsebészeti részleget. 2021 januárjától új kihívások elé néztem és orvosigazgatóként kezdtem el vezetni a Budaörsi Egészségcentrumot. Svájcban, Ausztriában és Németországban több tanulmányúton vettem részt elsősorban a Sporttraumatológia tárgykörében. Sportsebészként számos kézilabda, futball, valamint kosárlabdaklubbal szerződtem. 2003-2021 között töltöttem be a Magyar jégkorong válogatott orvosa szerepet sajnos munkahelyi elfoglaltságaim miatt le kellett adnom a kispadot. Az elmúlt pár évben a PAKSI Futball Klub operáló orvosa szerepet töltöm be, amellett, hogy rengeteg megkeresést kapok már futball csapatoktól illetve külföldi sportklubokktól egyaránt. 
+                        1995-ben végeztem a SOTE Általános Orvostudományi Karán, majd 2000-ben Traumatológiai szakvizsgát tettem. 19 évig dolgoztam a Székesfehérvári Kórház Traumatológiáján és Sportsebészetén, ahonnan 2016-ban kerültem át a Siófoki Kórházhoz, ahol a Baleseti sebészeti Osztály vezetője lettem, valamint létrehoztam a Sportsebészeti részleget. 2021 januárjától új kihívások elé néztem és orvosigazgatóként kezdtem el vezetni a Budaörsi Egészségcentrumot. Svájcban, Ausztriában és Németországban több tanulmányúton vettem részt elsősorban a Sporttraumatológia tárgykörében.<br />
+                        Sportsebészként számos kézilabda, futball, valamint kosárlabdaklubbal szerződtem. 2003-2021 között töltöttem be a Magyar jégkorong válogatott orvosa szerepet sajnos munkahelyi elfoglaltságaim miatt le kellett adnom a kispadot.<br />
+                        Az elmúlt pár évben a PAKSI Futball Klub operáló orvosa szerepet töltöm be, amellett, hogy rengeteg megkeresést kapok már futball csapatoktól illetve külföldi sportklubokktól egyaránt. 
                         </p>
                       </div>
                     )}
@@ -190,7 +192,8 @@ const DoctorProfileContent = () => {
                     {activeTab === 3 && (
                       <div className="about-tab-content pt-4">
                         <h4>Hitvallás</h4>
-                        <p>Sporttraumatológusnak vallom magam. Kihívás számomra, hogy mindenki úgy épüljön fel sérüléseiből, hogy visszatérhessen a sport világába legyen az profi vagy amatőr sportoló. Ami a mai orvoslásban elérhető, azoknak a lehetőségeknek a tárházát alkalmazom a gyógyítás során. Tapasztalataim alapján igen jó százalékkal megállapítom a sérüléseket, de szívesen használok a kornak megfelelő diagnosztikai lehetőségeket, mint MRI, RTG vagy Ultrahang hiszen ezekkel a lehetőségekkel egy teljes körű képet tudunk kapni a sérülésről, a fájdalom kiindulási helyéről.</p>
+                        <p>Sporttraumatológusnak vallom magam. Kihívás számomra, hogy mindenki úgy épüljön fel sérüléseiből, hogy visszatérhessen a sport világába legyen az profi vagy amatőr sportoló. Ami a mai orvoslásban elérhető, azoknak a lehetőségeknek a tárházát alkalmazom a gyógyítás során.<br />
+                        Tapasztalataim alapján igen jó százalékkal megállapítom a sérüléseket, de szívesen használok a kornak megfelelő diagnosztikai lehetőségeket, mint MRI, RTG vagy Ultrahang hiszen ezekkel a lehetőségekkel egy teljes körű képet tudunk kapni a sérülésről, a fájdalom kiindulási helyéről.</p>
                       </div>
                     )}
                   </div>
