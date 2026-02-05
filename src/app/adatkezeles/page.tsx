@@ -56,14 +56,13 @@ export default function Page() {
               <li>A számlázási adatokat a törvényi előírásoknak megfelelően 8 évig tároljuk.</li>
                   </ul>
             <h3>
-              <span>5.</span> Adatfeldolgozók (Kik láthatják még az adatokat?)
+              <span>5.</span> Adatfeldolgozók
             </h3>
             <p>
             Az adatokat harmadik félnek nem adjuk el. Bizonyos technikai szolgáltatók azonban hozzáférhetnek az adatokhoz:
             </p>
             <ul>
             <li>
-          A weboldal üzemeltetéséhez az Adatkezelő adatfeldolgozót vesz igénybe, aki a technikai hátteret biztosítja.
   <strong>Tárhelyszolgáltatás, infrastruktúra:</strong> Vercel Inc.<br />
   <strong>Székhely:</strong> 440 N Barranca Ave 4133, Covina, CA 91723, USA<br />
   <strong>Weboldal:</strong> https://vercel.com<br />
