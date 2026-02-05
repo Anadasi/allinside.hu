@@ -71,8 +71,8 @@ const doctorData: DoctorProfileData = {
   about: {
     title: "Bemutatkozás",
     paragraphs: [
-      "Sportsebészként célom, hogy segítsek a pácienseknek visszatérni a mozgás öröméhez, legyen szó hobbi- vagy élsportolóról. A modern sebészeti technikák és személyre szabott rehabilitáció révén hatékonyan kezelem a térd, váll, boka és más mozgásszervi sérüléseket, biztosítva a gyors és tartós felépülést. Több ezer műtéttel a hátam mögött széleskörű tapasztalattal rendelkezem és betegek ezreinek segítettem pályafutásom során.",
-      "Célom nem csupán a fájdalom megszüntetése, hanem a mielőbbi visszatérés az aktív, fájdalommentes élethez.",
+      "Sportsebészként célom, hogy segítsek a pácienseknek visszatérni a mozgás öröméhez, legyen szó hobbi- vagy élsportolóról. A modern sebészeti technikák és személyre szabott rehabilitáció révén hatékonyan kezelem a térd, váll, boka és más mozgásszervi sérüléseket, biztosítva a gyors és tartós felépülést.",
+      "Több ezer műtéttel a hátam mögött széleskörű tapasztalattal rendelkezem és betegek ezreinek segítettem pályafutásom során. Célom nem csupán a fájdalom megszüntetése, hanem a mielőbbi visszatérés az aktív, fájdalommentes élethez.",
       "Szakterületeim a boka-, térd- és vállsérülések gyógyítása.",
     ],
   },
