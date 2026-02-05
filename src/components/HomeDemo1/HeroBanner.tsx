@@ -140,7 +140,7 @@ function HeroBanner() {
                     </div>
                   </div>
                   <div className="wrap">
-                    <Link href="/services">
+                    <Link href="#roviden">
                       <Image
                         src="/images/banner/circle.svg"
                         alt="circle"
