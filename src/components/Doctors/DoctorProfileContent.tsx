@@ -182,7 +182,9 @@ const DoctorProfileContent = () => {
                       <div className="experience-content pt-4">
                         <h4>Szakmai pályafutás</h4>
                         <p>
-                        1995-ben végeztem a SOTE Általános Orvostudományi Karán, majd 2000-ben Traumatológiai szakvizsgát tettem. 19 évig dolgoztam a Székesfehérvári Kórház Traumatológiáján és Sportsebészetén, ahonnan 2016-ban kerültem át a Siófoki Kórházhoz, ahol a Baleseti sebészeti Osztály vezetője lettem, valamint létrehoztam a Sportsebészeti részleget. 2021 januárjától új kihívások elé néztem és orvosigazgatóként kezdtem el vezetni a Budaörsi Egészségcentrumot. Svájcban, Ausztriában és Németországban több tanulmányúton vettem részt elsősorban a Sporttraumatológia tárgykörében.<br />
+                        1995-ben végeztem a SOTE Általános Orvostudományi Karán, majd 2000-ben Traumatológiai szakvizsgát tettem. 19 évig dolgoztam a Székesfehérvári Kórház Traumatológiáján és Sportsebészetén, ahonnan 2016-ban kerültem át a Siófoki Kórházhoz, ahol a Baleseti sebészeti Osztály vezetője lettem, valamint létrehoztam a Sportsebészeti részleget.<br />
+                        <br />
+                        2021 januárjától új kihívások elé néztem és orvosigazgatóként kezdtem el vezetni a Budaörsi Egészségcentrumot. Svájcban, Ausztriában és Németországban több tanulmányúton vettem részt elsősorban a Sporttraumatológia tárgykörében.<br />
                         <br />
                         Sportsebészként számos kézilabda, futball, valamint kosárlabdaklubbal szerződtem. 2003-2021 között töltöttem be a Magyar jégkorong válogatott orvosa szerepet sajnos munkahelyi elfoglaltságaim miatt le kellett adnom a kispadot.<br />
                         <br />
