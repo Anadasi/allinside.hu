@@ -103,24 +103,39 @@ const DoctorProfileContent = () => {
         <div className="container">
           <div className="row justify-content-center g-4">
             {/* Bal oldal: Kép és Social */}
-            <div className="col-lg-3 col-md-12">
-              <div className="doctor-profile-image">
-                <Image src={doctorData.profileImage} alt={doctorData.name} width={611} height={917} />
-                <div className="info-social">
-                  <h5>Közösségi média</h5>
-                  <ul className="list">
-                    {doctorData.socialLinks.map((link, index) => (
-                      <li key={index}>
-                        <a href={link.url} target="_blank" rel="noreferrer">
-                          <Image src={link.icon} alt={link.platform} width={25} height={25} />
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-
+<div className="col-lg-3 col-md-12">
+  <div className="doctor-profile-image mb-3">
+    <Image 
+      src={doctorData.profileImage} 
+      alt={doctorData.name} 
+      width={611} 
+      height={917} 
+      className="rounded-3" // Opcionális: kerekített sarkok
+    />
+  </div>
+  
+  {/* Social Media szekció a kép alá mozgatva */}
+  <div className="info-social-under text-center text-lg-start">
+    <h5 className="mb-2" style={{ fontSize: '18px', fontWeight: '600' }}>Közösségi média</h5>
+    <ul className="list-unstyled d-flex gap-3 justify-content-center justify-content-lg-start">
+      {doctorData.socialLinks.map((link, index) => (
+        <li key={index}>
+          <a href={link.url} target="_blank" rel="noreferrer" className="d-inline-block">
+            <Image 
+              src={link.icon} 
+              alt={link.platform} 
+              width={32} // Kicsit nagyobbra vettem, hogy könnyebb legyen kattintani
+              height={32} 
+              style={{ transition: 'transform 0.2s' }}
+              onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+              onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+            />
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
             {/* Jobb oldal: Profil adatok és Tabok */}
             <div className="col-lg-9 col-md-12">
               <div className="doctor-profile-desc">
