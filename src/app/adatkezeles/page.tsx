@@ -62,12 +62,29 @@ export default function Page() {
             Az adatokat harmadik félnek nem adjuk el. Bizonyos technikai szolgáltatók azonban hozzáférhetnek az adatokhoz:
             </p>
             <ul>
-              <li>
-              Tárhelyszolgáltató:
-              </li>
-              <li>
-                E-mail szolgáltató:
-              </li>
+            <li>
+          A weboldal üzemeltetéséhez az Adatkezelő adatfeldolgozót vesz igénybe, aki a technikai hátteret biztosítja.
+  <strong>Tárhelyszolgáltatás, infrastruktúra:</strong> Vercel Inc.<br />
+  <strong>Székhely:</strong> 440 N Barranca Ave 4133, Covina, CA 91723, USA<br />
+  <strong>Weboldal:</strong> https://vercel.com<br />
+    <strong>Email:</strong> privacy@vercel.com<br />
+  <strong>Adatkezelés célja:</strong> Weboldal technikai kiszolgálása, szerveroldali infrastruktúra biztosítása.<br />
+  <strong>Kezelt adatok:</strong> A látogató IP-címe, a látogatás időpontja, böngésző típusa, amelyek a szervernaplózáshoz szükségesek. Az adatok (például a naplófájlokban lévő IP-címek) elhagyhatják az EU területét, a Vercel azonban megfelel a nemzetközi adatvédelmi előírásoknak (SCC - Standard Contractual Clauses).
+</li>
+<li>
+  <strong>Domain regisztrátor és DNS szolgáltató:</strong> C3 Nonprofit Kft.<br />
+  <strong>Székhely:</strong> 1024 Budapest, Orló utca 9.<br />
+  <strong>Weboldal:</strong> http://www.c3.hu<br />
+  <strong>Adatkezelés célja:</strong> Domain név fenntartása, DNS szolgáltatás és e-mail átirányítás biztosítása.<br />
+  <strong>Kezelt adatok:</strong> Domain kapcsolattartói adatok, technikai azonosítók, e-mail továbbítás esetén a küldő és címzett adatai.
+</li>
+<li>
+  <strong>E-mail szolgáltató:</strong> Google Ireland Limited<br />
+  <strong>Székhely:</strong> Gordon House, Barrow Street, Dublin 4, Írország<br />
+  <strong>Weboldal:</strong> https://policies.google.com/privacy<br />
+  <strong>Adatkezelés célja:</strong> E-mail levelezőrendszer biztosítása, elektronikus kapcsolattartás.<br />
+  <strong>Kezelt adatok:</strong> Név, e-mail cím, üzenet tartalma, a levelezés során megadott egyéb személyes adatok.
+</li>
             </ul>
             <h3>
               <span>6.</span> Az Ön jogai
