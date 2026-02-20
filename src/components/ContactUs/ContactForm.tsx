@@ -26,30 +26,29 @@ const ContactForm = () => {
             {/* JOBB OLDAL: ELÉRHETŐSÉGEK ÉS ÁTIRÁNYÍTÁS */}
             <div className="col-lg-6 col-md-12">
               <div className="contact-content-box" style={{ padding: '30px' }}>
-                <h3 style={{ marginBottom: '25px', color: '#264653' }}>Kapcsolatfelvétel</h3>
+                <h3 style={{ marginBottom: '25px', color: '#264653' }}>Rendelések</h3>
                 
                 <div className="info-list" style={{ textAlign: 'left', marginBottom: '30px' }}>
-                  <div style={{ marginBottom: '20px' }}>
-                    <h5 style={{ marginBottom: '5px' }}>Email</h5>
-                    <a href="mailto:rendeles@drmajzikerno.hu" style={{ color: '#007bff', textDecoration: 'none', fontSize: '18px' }}>
-                      rendeles@drmajzikerno.hu
-                    </a>
-                  </div>
-                  
-                  <div style={{ marginBottom: '20px' }}>
-                    <h5 style={{ marginBottom: '5px' }}>Telefon</h5>
-                    <a href="tel:+36309405846" style={{ color: '#007bff', textDecoration: 'none', fontSize: '18px' }}>
-                      +36 30 940 5846
-                    </a>
-                  </div>
-                  
-                  <div style={{ marginBottom: '20px' }}>
-                    <h5 style={{ marginBottom: '5px' }}>Helyszín</h5>
+                    <div style={{ marginBottom: '20px' }}>
+                    <h5 style={{ marginBottom: '5px' }}>Budapest</h5>
                     <p style={{ margin: 0, fontSize: '16px', lineHeight: '1.6' }}>
                       <strong>Újbuda Medical Center</strong><br />
-                      1116 Budapest, Fehérvári út 126-128.
+                      1116 Budapest, Fehérvári út 126-128.<br />
+                      Szerda és Csütörtök (15:00-20:00)<br />
+                      Péntek (11:00-17:00)
                     </p>
                   </div>
+
+                    <div style={{ marginBottom: '20px' }}>
+                    <h5 style={{ marginBottom: '5px' }}>Siófok</h5>
+                    <p style={{ margin: 0, fontSize: '16px', lineHeight: '1.6' }}>
+                      <strong>Siómedical Egészségügyi Központ</strong><br />
+                      8600 Siófok, Semmelweis u. 1.<br />
+                      Rendelés: Hétfő
+                    </p>
+                  </div>
+                  
+
                 </div>
 
                 <hr style={{ border: '0', borderTop: '1px solid #eee', margin: '25px 0' }} />
