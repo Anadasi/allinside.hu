@@ -34,8 +34,9 @@ const ContactForm = () => {
                     <p style={{ margin: 0, fontSize: '16px', lineHeight: '1.6' }}>
                       <strong>Újbuda Medical Center</strong><br />
                       1116 Budapest, Fehérvári út 126-128.<br />
-                      Szerda és Csütörtök (15:00-20:00)<br />
-                      Péntek (11:00-17:00)
+                      Rendelés:<br />
+                      Szerda és Csütörtök 15:00-20:00<br />
+                      Péntek 11:00-17:00
                     </p>
                   </div>
 
