@@ -1,4 +1,67 @@
 import React from "react";
+import Link from "next/link";
+
+const ContactForm = () => {
+  return (
+    <>
+      <div className="contact-us-area pb-140">
+        <div className="container">
+          <div className="row align-items-center justify-content-center g-4">
+            
+            {/* BAL OLDAL: A FOTÓ */}
+            <div className="col-lg-6 col-md-12">
+              <div
+                className="contact-us-image"
+                style={{
+                  backgroundImage: "url(/images/contact.jpg)",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  minHeight: '450px', // Ez kényszeríti ki, hogy látszódjon a kép
+                  borderRadius: '10px'
+                }}
+              >
+                {/* Itt hagyhatod üresen, a háttérkép fog látszódni */}
+              </div>
+            </div>
+
+            {/* JOBB OLDAL: A SZÖVEG ÉS A GOMB */}
+            <div className="col-lg-6 col-md-12">
+              <div className="contact-cta-box text-center" style={{ padding: '20px' }}>
+                <h3 style={{ marginBottom: '20px' }}>Kérdése van vagy időpontot foglalna?</h3>
+                <p>Üzenetküldéshez és bejelentkezéshez kérjük, látogasson el Dr. Majzik Ernő hivatalos kapcsolatfelvételi oldalára:</p>
+                
+                <a 
+                  href="https://www.drmajzikerno.hu/kapcsolat/" 
+                  className="default-btn" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  style={{
+                      display: 'inline-block',
+                      padding: '15px 30px',
+                      backgroundColor: '#264653', // Átállítottam a sablonod sötétebb kékjére, ha maradna a világos, írd vissza #007bff-re
+                      color: '#fff',
+                      borderRadius: '5px',
+                      textDecoration: 'none',
+                      fontWeight: 'bold',
+                      marginTop: '20px',
+                      transition: '0.3s'
+                  }}
+                >
+                  Tovább az üzenetküldéshez
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default ContactForm;
+
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
@@ -72,7 +135,7 @@ const ContactForm = () => {
 
 <div className="contact-cta-box text-center">
   <h3>Kérdése van vagy időpontot foglalna?</h3>
-  <p>Üzenetküldéshez és bejelentkezéshez kérjük, látogasson el Dr. Majzik Ernő hivatalos kapcsolatfelvételi oldalára:</p>
+  <p>Üzenet küldéshez skérjük, látogasson el Dr. Majzik Ernő hivatalos kapcsolatfelvételi oldalára:</p>
   
   <a 
     href="https://www.drmajzikerno.hu/kapcsolat/" 
