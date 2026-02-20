@@ -1,8 +1,14 @@
+import { Metadata } from 'next';
 import FrequentlyAskedQuestions from "@/components/Common/FrequentlyAskedQuestions";
 import ContactForm from "@/components/ContactUs/ContactForm";
 import ContactInfo from "@/components/ContactUs/ContactInfo";
 import Navbar from "@/components/Layout/Navbar";
 import PageBanner from "@/components/Layout/PageBanner";
+
+export const metadata: Metadata = {
+  title: 'Kapcsolat | AllInside.hu - Online Időpontfoglalás',
+  description: 'Vegye fel velünk a kapcsolatot! Elérhetőségeink, térkép és online bejelentkezés.',
+};
 
 export default function Page() {
   return (

@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Cta from "@/components/Common/Cta";
 import Navbar from "@/components/Layout/Navbar";
 import PageBanner from "@/components/Layout/PageBanner";
+
+export const metadata: Metadata = {
+  title: 'Adatkezelési Tájékoztató | AllInside.hu',
+  description: 'Az AllInside.hu adatkezelési irányelvei. Tudja meg, hogyan vigyázunk adataira és biztosítjuk a biztonságos böngészést.',
+}
 
 export default function Page() {
   return (
