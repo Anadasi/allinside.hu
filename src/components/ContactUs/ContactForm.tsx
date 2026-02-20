@@ -70,6 +70,29 @@ const ContactForm = () => {
               </div>
             </div>
 
+<div className="contact-cta-box text-center">
+  <h3>Kérdése van vagy időpontot foglalna?</h3>
+  <p>Üzenetküldéshez és bejelentkezéshez kérjük, látogasson el Dr. Majzik Ernő hivatalos kapcsolatfelvételi oldalára:</p>
+  
+  <a 
+    href="https://www.drmajzikerno.hu/kapcsolat/" 
+    className="default-btn" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    style={{
+        display: 'inline-block',
+        padding: '15px 30px',
+        backgroundColor: '#007bff',
+        color: '#fff',
+        borderRadius: '5px',
+        textDecoration: 'none',
+        fontWeight: 'bold',
+        marginTop: '20px'
+    }}
+  >
+    Tovább az üzenetküldéshez
+  </a>
+</div>
             <div className="col-lg-6 col-md-12">
               <div className="contact-us-form">
                 <div className="content">
