@@ -45,7 +45,8 @@ const ContactForm = () => {
                     <p style={{ margin: 0, fontSize: '16px', lineHeight: '1.6' }}>
                       <strong>Siómedical Egészségügyi Központ</strong><br />
                       8600 Siófok, Semmelweis u. 1.<br />
-                      Rendelés: Hétfő
+                      Rendelés:<br />
+                      Hétfő
                     </p>
                   </div>
                   
